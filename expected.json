@@ -1,0 +1,344 @@
+{
+    "bundesliga":{
+        "1":{
+            "score" : "0 1",
+            "clock" : "02:25"
+        },
+        "2" : {
+            "score": "0 0",
+            "clock" : "06:40"
+        },
+        "3" : {
+            "score": "1 0",
+            "clock": "05:26"
+        },
+        "4": {
+            "score": "0 1",
+            "clock": "09:10"
+        },
+        "5": {
+            "score": "0 1",
+            "clock": "17:04"
+        },
+        "6": {
+            "score": "1 1",
+            "clock": "15:19"
+        },
+        "7": {
+            "score": "1 0",
+            "clock": "25:19"
+        },
+        "8": {
+            "score": "2 1",
+            "clock": "24:50"
+        },
+        "9": {
+            "score": "1 0",
+            "clock": "29:32"
+        },
+        "10": {
+            "score": "0 0",
+            "clock": "29:58"
+        },
+        "11": {
+            "score": "0 2",
+            "clock": "37:34"
+        },
+        "12": {
+            "score": "0 2",
+            "clock": "39:40"
+        },
+        "13": {
+            "score": "4 1",
+            "clock": "44:32"
+        },
+        "14": {
+            "score": "0 5",
+            "clock": "59:15"
+        },
+        "15": {
+            "score": "0 2",
+            "clock": "68:46"
+        },
+        "16": {
+            "score": "0 6",
+            "clock": "68:36"
+        },
+        "17": {
+            "score": "2 1",
+            "clock": "74:47"
+        },
+        "18": {
+            "score": "0 7",
+            "clock": "78:48"
+        },
+        "19": {
+            "score": "3 1",
+            "clock": "84:04"
+        },
+        "20": {
+            "score": "3 2",
+            "clock": "92:41"
+        }
+    },
+    "liga-italiana" : {
+        "1": {
+            "score": "0-1",
+            "clock": "06:25"
+        },
+        "2": {
+            "score": "1-0",
+            "clock": "12:46"
+        },
+        "3": {
+            "score": "0-0",
+            "clock": "13:23"
+        },
+        "4": {
+            "score": "1-1",
+            "clock": "42:39"
+        },
+        "5": {
+            "score": "1-0",
+            "clock": "64:54"
+        },
+        "6": {
+            "score": "2-1",
+            "clock": "92:45"
+        },
+        "7": {
+            "score": "4-2",
+            "clock": "83:15"
+        },
+        "8": {
+            "score": "0-1",
+            "clock": "91:23"
+        }
+    },
+    "NBA" : {
+        "1" : {
+            "score" : "2 0",
+            "clock" : "10:51",
+            "clockExtra" : "24"
+        },
+        "2": {
+            "score": "5 2",
+            "clock": "9:08",
+            "clockExtra": "24"
+        },
+        "3": {
+            "score": "22 21",
+            "clock": "2:56",
+            "clockExtra": "24"
+        },
+        "4": {
+            "score": "30 21",
+            "clock": "1:34",
+            "clockExtra": "24"
+        },
+        "5": {
+            "score": "79 72",
+            "clock": "5:34",
+            "clockExtra": "8"
+        },
+        "6": {
+            "score": "79 74",
+            "clock": "4:05",
+            "clockExtra": "17"
+        },
+        "7": {
+            "score": "84 78",
+            "clock": "3:17",
+            "clockExtra": "24"
+        },
+        "8": {
+            "score": "105 122",
+            "clock": "2:15",
+            "clockExtra": "24"
+        },
+        "9": {
+            "score": "105 126",
+            "clock": "1:45",
+            "clockExtra": "24"
+        },
+        "10": {
+            "score": "107 128",
+            "clock": "1:27",
+            "clockExtra": "24"
+        },
+        "11": {
+            "score": "107 126",
+            "clock": "56.6",
+            "clockExtra": "17"
+        }
+    },
+    "NFL1" : {
+        "1": {
+            "score" : "0 6",
+            "clock" : "10:09 19",
+            "downDistance" : ""
+        }, 
+        "2": {
+            "score": "0 7",
+            "clock": "8:13",
+            "downDistance": "2nd 2"
+        },
+        "3": {
+            "score": "7 7",
+            "clock": "5:00 36",
+            "downDistance": "3rd 14"
+        },
+        "4": {
+            "score": "7 14",
+            "clock": "13:31 36",
+            "downDistance": "3rd 8"
+        },
+        "5": {
+            "score": "13 14",
+            "clock": "9:39 15",
+            "downDistance": ""
+        },
+        "6": {
+            "score": "14 14",
+            "clock": "5:55 38",
+            "downDistance": "4th DOWN"
+        },
+        "7": {
+            "score": "14 20",
+            "clock": "2:20 33",
+            "downDistance": ""
+        }
+    },
+    "NFL2" : {
+        "1": {
+            "score": "0 13",
+            "clock": "1:21 35",
+            "downDistance": ""
+        },
+        "2": {
+            "score": "0 14",
+            "clock": "15:00 17",
+            "downDistance": "2nd 8"
+        },
+        "3": {
+            "score": "0 14",
+            "clock": "14:55 14",
+            "downDistance": "3rd 8"
+        },
+        "4": {
+            "score": "0 14",
+            "clock": "14:47 24",
+            "downDistance": "4th 13"
+        },
+        "5": {
+            "score": "0 20",
+            "clock": "7:29 37",
+            "downDistance": ""
+        },
+        "6": {
+            "score": "6 28",
+            "clock": "6:15 34",
+            "downDistance": ""
+        },
+        "7": {
+            "score": "7 28",
+            "clock": "15:00 15",
+            "downDistance": "1st 10"
+        }
+    },
+    "pt-cup": {
+        "1": {
+            "score": "0 1",
+            "scoreExtra": "",
+            "clock": "18:45"
+        },
+        "2": {
+            "score": "0 1",
+            "scoreExtra": "(2-2)",
+            "clock": "20:36"
+        },
+        "3": {
+            "score": "1 1",
+            "scoreExtra": "(3-2)",
+            "clock": "28:38"
+        },
+        "4": {
+            "score": "1 1",
+            "scoreExtra": "(3-2)",
+            "clock": "30:09"
+        },
+        "5": {
+            "score": "1 2",
+            "scoreExtra": "",
+            "clock": "63:31"
+        },
+        "6": {
+            "score": "0 4",
+            "scoreExtra": "",
+            "clock": "77:35"
+        },
+        "7": {
+            "score": "0 1",
+            "scoreExtra": "",
+            "clock": "75:20"
+        },
+        "8": {
+            "score": "0 4",
+            "scoreExtra": "",
+            "clock": "78:09"
+        },
+        "9": {
+            "score": "0 2",
+            "scoreExtra": "",
+            "clock": "85:04"
+        },
+        "10": {
+            "score": "0 5",
+            "scoreExtra": "",
+            "clock": "90:00"
+        },
+        "11": {
+            "score": "0 0",
+            "scoreExtra": "",
+            "clock": "04:11"
+        }
+    },
+    "taca-da-liga" : {
+        "1": {
+            "score": "0-0",
+            "clock": "00:51"
+        },
+        "2": {
+            "score": "1-0",
+            "clock": "06:35"
+        },
+        "3": {
+            "score": "0-1",
+            "clock": "09:11"
+        },
+        "4": {
+            "score": "3-0",
+            "clock": "19:18"
+        },
+        "5": {
+            "score": "1-1",
+            "clock": "69:42"
+        },
+        "6": {
+            "score": "5-0",
+            "clock": "76:31"
+        },
+        "7": {
+            "score": "3-0",
+            "clock": "79:20"
+        },
+        "8": {
+            "score": "1-2",
+            "clock": "89:12"
+        },
+        "9": {
+            "score": "0-2",
+            "clock": "86:57"
+        }
+    }
+}

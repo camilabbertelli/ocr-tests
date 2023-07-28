@@ -1,0 +1,2 @@
+g++ main.cpp utils.cpp League.cpp -o build/main -march=native -O3 -Wall -pthread `pkg-config --cflags --libs opencv4 tesseract lept libcurl` -ljsoncpp
+g++ jsonExtraction.cpp utils.cpp -o build/json -march=native -O3 -Wall -pthread `pkg-config --cflags --libs opencv4 tesseract lept libcurl` -ljsoncpp
