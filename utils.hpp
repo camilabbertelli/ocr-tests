@@ -9,6 +9,7 @@
 #include <vector>
 #include <cstdlib>
 #include <sys/stat.h>
+#include <ctype.h>
 
 #include <jsoncpp/json/json.h>
 #include <fstream>
@@ -45,13 +46,6 @@ namespace camicasa
     void preprocess(Mat &input, Mat &output);
 
     /**
-        @brief processes a given text, cleaning and normalizing it
-        @param[inout] text std::string input text
-        @param keepLetters flag that when true, maintains all letters found in given text
-    */
-    void postprocess(string &text, bool keepLetters = false);
-
-    /**
         @brief uses the cv::dnn::dnn4_v20230620::TextRecognitionModel class to extract text given an image
         @param input cv::Mat input image
         @param modelPath std::string with the path to the pretrained recognition model to use
@@ -85,20 +79,24 @@ namespace camicasa
     */
     bool contains(vector<string> &vec, string element);
 
-    /**
-        @brief looks for string part in the given string, removing the numbers at the end
-        @param key std::string input text
-        @returns returns only letters string
-    */
-    string splitKeyLetters(string key);
-
     /// @brief transforms given string to lowercase 
     void toLowerString(string &text);
 
-    /// @brief removes last character if it matches the one given
-    void removeIfLast(string &text, char c);
+    /// @brief removes first and last sequence of character if it matches the one given
+    void removeIfFirstLast(string &text, char c);
 
-    void tuneWhiteBlackLists(tesseract::TessBaseAPI *ocr, bool keepLetters);
+    /// @brief remove letters from text, maintaining numbers and punctuations
+    void removeLettersFromNumbers(string &text);
+
+    /**
+        @brief writes a json value to a file located in path
+        @param json Json::Value json to write
+        @param path std::string with the destination path
+    */
+    void writeJson(Json::Value json, string path);
+
+    /// @returns returns true if std::string contains a number
+    bool containsNumber(string text);
 }
 
 #endif

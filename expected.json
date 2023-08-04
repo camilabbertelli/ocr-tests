@@ -83,35 +83,35 @@
     },
     "liga-italiana" : {
         "1": {
-            "score": "0-1",
+            "score": "0 1",
             "clock": "06:25"
         },
         "2": {
-            "score": "1-0",
+            "score": "1 0",
             "clock": "12:46"
         },
         "3": {
-            "score": "0-0",
+            "score": "0 0",
             "clock": "13:23"
         },
         "4": {
-            "score": "1-1",
+            "score": "1 1",
             "clock": "42:39"
         },
         "5": {
-            "score": "1-0",
+            "score": "1 0",
             "clock": "64:54"
         },
         "6": {
-            "score": "2-1",
+            "score": "2 1",
             "clock": "92:45"
         },
         "7": {
-            "score": "4-2",
+            "score": "4 2",
             "clock": "83:15"
         },
         "8": {
-            "score": "0-1",
+            "score": "0 1",
             "clock": "91:23"
         }
     },
@@ -167,7 +167,7 @@
             "clockExtra": "24"
         },
         "11": {
-            "score": "107 126",
+            "score": "107 128",
             "clock": "56.6",
             "clockExtra": "17"
         }
@@ -181,17 +181,17 @@
         "2": {
             "score": "0 7",
             "clock": "8:13",
-            "downDistance": "2nd 2"
+            "downDistance": "2 2"
         },
         "3": {
             "score": "7 7",
             "clock": "5:00 36",
-            "downDistance": "3rd 14"
+            "downDistance": "3 14"
         },
         "4": {
             "score": "7 14",
             "clock": "13:31 36",
-            "downDistance": "3rd 8"
+            "downDistance": "3 8"
         },
         "5": {
             "score": "13 14",
@@ -201,7 +201,7 @@
         "6": {
             "score": "14 14",
             "clock": "5:55 38",
-            "downDistance": "4th DOWN"
+            "downDistance": "4 down"
         },
         "7": {
             "score": "14 20",
@@ -218,17 +218,17 @@
         "2": {
             "score": "0 14",
             "clock": "15:00 17",
-            "downDistance": "2nd 8"
+            "downDistance": "2 8"
         },
         "3": {
             "score": "0 14",
             "clock": "14:55 14",
-            "downDistance": "3rd 8"
+            "downDistance": "3 8"
         },
         "4": {
             "score": "0 14",
             "clock": "14:47 24",
-            "downDistance": "4th 13"
+            "downDistance": "4 13"
         },
         "5": {
             "score": "0 20",
@@ -243,7 +243,7 @@
         "7": {
             "score": "7 28",
             "clock": "15:00 15",
-            "downDistance": "1st 10"
+            "downDistance": "1 10"
         }
     },
     "pt-cup": {
@@ -254,17 +254,17 @@
         },
         "2": {
             "score": "0 1",
-            "scoreExtra": "(2-2)",
+            "scoreExtra": "(2 2)",
             "clock": "20:36"
         },
         "3": {
             "score": "1 1",
-            "scoreExtra": "(3-2)",
+            "scoreExtra": "(3 2)",
             "clock": "28:38"
         },
         "4": {
             "score": "1 1",
-            "scoreExtra": "(3-2)",
+            "scoreExtra": "(3 2)",
             "clock": "30:09"
         },
         "5": {
@@ -305,39 +305,39 @@
     },
     "taca-da-liga" : {
         "1": {
-            "score": "0-0",
+            "score": "0 0",
             "clock": "00:51"
         },
         "2": {
-            "score": "1-0",
+            "score": "1 0",
             "clock": "06:35"
         },
         "3": {
-            "score": "0-1",
+            "score": "0 1",
             "clock": "09:11"
         },
         "4": {
-            "score": "3-0",
+            "score": "3 0",
             "clock": "19:18"
         },
         "5": {
-            "score": "1-1",
+            "score": "1 1",
             "clock": "69:42"
         },
         "6": {
-            "score": "5-0",
+            "score": "5 0",
             "clock": "76:31"
         },
         "7": {
-            "score": "3-0",
+            "score": "3 0",
             "clock": "79:20"
         },
         "8": {
-            "score": "1-2",
+            "score": "1 2",
             "clock": "89:12"
         },
         "9": {
-            "score": "0-2",
+            "score": "0 2",
             "clock": "86:57"
         }
     }

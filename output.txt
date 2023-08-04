@@ -3,1089 +3,1635 @@
 LEAGUE : bundesliga
 **************************
 
-bundesliga 1.jpg
-----------------
-OPENCV -> clock : '02:25'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '02:25'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '02:25'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '2:25 0225 02:25'
+bundesliga 1
+--------------------------
+________
+EXPECTED         -> clock : "02:25"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 1'
+OPENCV           -> clock : "02:25"
+TESSERACT ONLY   -> clock : "02:25"
+TESSERACT CUSTOM -> clock : "02:25"
+TESSERACT ALL    -> clock : "02:25 025 02:25"
 
-bundesliga 10.jpg
-----------------
-OPENCV -> clock : '29:58'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '29:58'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '29:58'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '2658 2458 20:58'
+________
+EXPECTED         -> score : "0 1"
 
-OPENCV -> score : '0 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 00'
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 41"
+TESSERACT ALL    -> score : "000 1"
 
-bundesliga 11.jpg
-----------------
-OPENCV -> clock : '37:34'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '37:34'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '37:34'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+bundesliga 10
+--------------------------
+________
+EXPECTED         -> clock : "29:58"
 
-OPENCV -> score : '0 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 2'
+OPENCV           -> clock : "29:58"
+TESSERACT ONLY   -> clock : "29:58"
+TESSERACT CUSTOM -> clock : "29:58"
+TESSERACT ALL    -> clock : "2558 2458 20:56"
 
-bundesliga 12.jpg
-----------------
-OPENCV -> clock : '39:40'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '39:40'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '39:40'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+________
+EXPECTED         -> score : "0 0"
 
-OPENCV -> score : '0 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 2'
+OPENCV           -> score : "0 0"
+TESSERACT ONLY   -> score : "0 0"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "00 00"
 
-bundesliga 13.jpg
-----------------
-OPENCV -> clock : '44:32'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '44:32'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '44:32'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '44:32 44:92 4492'
+bundesliga 11
+--------------------------
+________
+EXPECTED         -> clock : "37:34"
 
-OPENCV -> score : '4 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '4 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : '4 41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '444 1'
+OPENCV           -> clock : "37:34"
+TESSERACT ONLY   -> clock : "37:34"
+TESSERACT CUSTOM -> clock : "37:34"
+TESSERACT ALL    -> clock : ""
 
-bundesliga 14.jpg
-----------------
-OPENCV -> clock : '59:15'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '59:15'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '69:15'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+________
+EXPECTED         -> score : "0 2"
 
-OPENCV -> score : '0 5'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 5'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 5'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 '
+OPENCV           -> score : "0 2"
+TESSERACT ONLY   -> score : "0 2"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 02"
 
-bundesliga 15.jpg
-----------------
-OPENCV -> clock : '68:46'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '68:46'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '68:46'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '6 6646 68:46'
+bundesliga 12
+--------------------------
+________
+EXPECTED         -> clock : "39:40"
 
-OPENCV -> score : '0 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 2'
+OPENCV           -> clock : "39:40"
+TESSERACT ONLY   -> clock : "39:40"
+TESSERACT CUSTOM -> clock : "39:40"
+TESSERACT ALL    -> clock : "34) 4:40 340"
 
-bundesliga 16.jpg
-----------------
-OPENCV -> clock : '68:36'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '68:36'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '68:36'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '68:36 66:36 08:36'
+________
+EXPECTED         -> score : "0 2"
 
-OPENCV -> score : '0 6'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 6'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 6'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 666'
+OPENCV           -> score : "0 2"
+TESSERACT ONLY   -> score : "0 2"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 2"
 
-bundesliga 17.jpg
-----------------
-OPENCV -> clock : '74:47'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '74:47'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '74:47'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '7447 74:47 14:4)'
+bundesliga 13
+--------------------------
+________
+EXPECTED         -> clock : "44:32"
 
-OPENCV -> score : '2 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '2 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '- 1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '222 1'
+OPENCV           -> clock : "44:32"
+TESSERACT ONLY   -> clock : "44:32"
+TESSERACT CUSTOM -> clock : "44:32"
+TESSERACT ALL    -> clock : "44:38 44132 44:32"
 
-bundesliga 18.jpg
-----------------
-OPENCV -> clock : '78:48'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '78:48'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '78:48'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '7848 70:46'
+________
+EXPECTED         -> score : "4 1"
 
-OPENCV -> score : '0 7'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 7'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 '
+OPENCV           -> score : "4 1"
+TESSERACT ONLY   -> score : "4 0"
+TESSERACT CUSTOM -> score : "4 41"
+TESSERACT ALL    -> score : "444 1"
 
-bundesliga 19.jpg
-----------------
-OPENCV -> clock : '84:04'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '64:04'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '84:04'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '( 04 :'
+bundesliga 14
+--------------------------
+________
+EXPECTED         -> clock : "59:15"
 
-OPENCV -> score : '3 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '3 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '3 1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '333 1'
+OPENCV           -> clock : "59:15"
+TESSERACT ONLY   -> clock : "59:15"
+TESSERACT CUSTOM -> clock : "69:15"
+TESSERACT ALL    -> clock : ""
 
-bundesliga 2.jpg
-----------------
-OPENCV -> clock : '06:40'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '06:40'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '06:40'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '(6:40 06:40 06:4'
+________
+EXPECTED         -> score : "0 5"
 
-OPENCV -> score : '0 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 00'
+OPENCV           -> score : "0 5"
+TESSERACT ONLY   -> score : "0 5"
+TESSERACT CUSTOM -> score : "0 5"
+TESSERACT ALL    -> score : "00 0"
 
-bundesliga 20.jpg
-----------------
-OPENCV -> clock : '92:41'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '92:41'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '92:41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+bundesliga 15
+--------------------------
+________
+EXPECTED         -> clock : "68:46"
 
-OPENCV -> score : '3 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '3 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : '3 -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '333 2'
+OPENCV           -> clock : "68:46"
+TESSERACT ONLY   -> clock : "68:46"
+TESSERACT CUSTOM -> clock : "68:46"
+TESSERACT ALL    -> clock : "6 646 68:46"
 
-bundesliga 3.jpg
-----------------
-OPENCV -> clock : '05:26'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '05:26'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '05:26'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '05:26 0526 05:26'
+________
+EXPECTED         -> score : "0 2"
 
-OPENCV -> score : '1 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '141 000'
+OPENCV           -> score : "0 2"
+TESSERACT ONLY   -> score : "0 2"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "00 2"
 
-bundesliga 4.jpg
-----------------
-OPENCV -> clock : '09:10'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '09:10'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '09:10'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '0 08:10 0010'
+bundesliga 16
+--------------------------
+________
+EXPECTED         -> clock : "68:36"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 1'
+OPENCV           -> clock : "68:36"
+TESSERACT ONLY   -> clock : "68:36"
+TESSERACT CUSTOM -> clock : "68:36"
+TESSERACT ALL    -> clock : "68:36 66:36 08:36"
 
-bundesliga 5.jpg
-----------------
-OPENCV -> clock : '17:04'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '17:04'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '17:04'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+________
+EXPECTED         -> score : "0 6"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 1'
+OPENCV           -> score : "0 6"
+TESSERACT ONLY   -> score : "0 6"
+TESSERACT CUSTOM -> score : "0 6"
+TESSERACT ALL    -> score : "00 666"
 
-bundesliga 6.jpg
-----------------
-OPENCV -> clock : '15:19'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '15:19'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '15:19'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '15:19 15:19 15:19'
+bundesliga 17
+--------------------------
+________
+EXPECTED         -> clock : "74:47"
 
-OPENCV -> score : '1 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '41 41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '111 141'
+OPENCV           -> clock : "74:47"
+TESSERACT ONLY   -> clock : "74:47"
+TESSERACT CUSTOM -> clock : "74:47"
+TESSERACT ALL    -> clock : "7447 74:47 74:4)"
 
-bundesliga 7.jpg
-----------------
-OPENCV -> clock : '25:19'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '25:19'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '25:19'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+________
+EXPECTED         -> score : "2 1"
 
-OPENCV -> score : '1 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 0)'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '41 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '111 000'
+OPENCV           -> score : "2 1"
+TESSERACT ONLY   -> score : "2 1"
+TESSERACT CUSTOM -> score : "0 1"
+TESSERACT ALL    -> score : "022 1"
 
-bundesliga 8.jpg
-----------------
-OPENCV -> clock : '24:50'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '24:50'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '24:50'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '24:50 24:50 24:50'
+bundesliga 18
+--------------------------
+________
+EXPECTED         -> clock : "78:48"
 
-OPENCV -> score : '2 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '2 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '- 41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '2 1'
+OPENCV           -> clock : "78:48"
+TESSERACT ONLY   -> clock : "78:48"
+TESSERACT CUSTOM -> clock : "78:48"
+TESSERACT ALL    -> clock : "7448 78:46"
 
-bundesliga 9.jpg
-----------------
-OPENCV -> clock : '29:32'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '29:32'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '29:32'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '5:3 2 2'
+________
+EXPECTED         -> score : "0 7"
 
-OPENCV -> score : '1 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : '41 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '111 00'
+OPENCV           -> score : "0 7"
+TESSERACT ONLY   -> score : "0 7"
+TESSERACT CUSTOM -> score : "0 7"
+TESSERACT ALL    -> score : "000 0"
+
+bundesliga 19
+--------------------------
+________
+EXPECTED         -> clock : "84:04"
+
+OPENCV           -> clock : "84:04"
+TESSERACT ONLY   -> clock : "64:04"
+TESSERACT CUSTOM -> clock : "84:04"
+TESSERACT ALL    -> clock : "(4 04 :"
+
+________
+EXPECTED         -> score : "3 1"
+
+OPENCV           -> score : "3 1"
+TESSERACT ONLY   -> score : "3 1"
+TESSERACT CUSTOM -> score : "3 1"
+TESSERACT ALL    -> score : "333 1"
+
+bundesliga 2
+--------------------------
+________
+EXPECTED         -> clock : "06:40"
+
+OPENCV           -> clock : "06:40"
+TESSERACT ONLY   -> clock : "06:40"
+TESSERACT CUSTOM -> clock : "06:40"
+TESSERACT ALL    -> clock : "(6:40 06:40 06:4"
+
+________
+EXPECTED         -> score : "0 0"
+
+OPENCV           -> score : "0 0"
+TESSERACT ONLY   -> score : "0 0"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "00 00"
+
+bundesliga 20
+--------------------------
+________
+EXPECTED         -> clock : "92:41"
+
+OPENCV           -> clock : "92:41"
+TESSERACT ONLY   -> clock : "92:41"
+TESSERACT CUSTOM -> clock : "92:41"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "3 2"
+
+OPENCV           -> score : "3 2"
+TESSERACT ONLY   -> score : "3 0"
+TESSERACT CUSTOM -> score : "3 0"
+TESSERACT ALL    -> score : "333 2"
+
+bundesliga 3
+--------------------------
+________
+EXPECTED         -> clock : "05:26"
+
+OPENCV           -> clock : "05:26"
+TESSERACT ONLY   -> clock : "05:26"
+TESSERACT CUSTOM -> clock : "05:26"
+TESSERACT ALL    -> clock : "05:26 05126 05:26"
+
+________
+EXPECTED         -> score : "1 0"
+
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 0"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : "141 000"
+
+bundesliga 4
+--------------------------
+________
+EXPECTED         -> clock : "09:10"
+
+OPENCV           -> clock : "09:10"
+TESSERACT ONLY   -> clock : "09:10"
+TESSERACT CUSTOM -> clock : "09:10"
+TESSERACT ALL    -> clock : "0 08100010"
+
+________
+EXPECTED         -> score : "0 1"
+
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 1"
+TESSERACT ALL    -> score : "00 1"
+
+bundesliga 5
+--------------------------
+________
+EXPECTED         -> clock : "17:04"
+
+OPENCV           -> clock : "17:04"
+TESSERACT ONLY   -> clock : "17:04"
+TESSERACT CUSTOM -> clock : "17:04"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "0 1"
+
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 41"
+TESSERACT ALL    -> score : "000 1"
+
+bundesliga 6
+--------------------------
+________
+EXPECTED         -> clock : "15:19"
+
+OPENCV           -> clock : "15:19"
+TESSERACT ONLY   -> clock : "15:19"
+TESSERACT CUSTOM -> clock : "15:19"
+TESSERACT ALL    -> clock : "15:59 15019 1509"
+
+________
+EXPECTED         -> score : "1 1"
+
+OPENCV           -> score : "1 1"
+TESSERACT ONLY   -> score : "1 1"
+TESSERACT CUSTOM -> score : "41 41"
+TESSERACT ALL    -> score : "111 141"
+
+bundesliga 7
+--------------------------
+________
+EXPECTED         -> clock : "25:19"
+
+OPENCV           -> clock : "25:19"
+TESSERACT ONLY   -> clock : "25:19"
+TESSERACT CUSTOM -> clock : "25:19"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "1 0"
+
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 0)"
+TESSERACT CUSTOM -> score : "41 0"
+TESSERACT ALL    -> score : "111 000"
+
+bundesliga 8
+--------------------------
+________
+EXPECTED         -> clock : "24:50"
+
+OPENCV           -> clock : "24:50"
+TESSERACT ONLY   -> clock : "24:50"
+TESSERACT CUSTOM -> clock : "24:50"
+TESSERACT ALL    -> clock : "24550 24:50 24:50"
+
+________
+EXPECTED         -> score : "2 1"
+
+OPENCV           -> score : "2 1"
+TESSERACT ONLY   -> score : "2 1"
+TESSERACT CUSTOM -> score : "0 41"
+TESSERACT ALL    -> score : "2 1"
+
+bundesliga 9
+--------------------------
+________
+EXPECTED         -> clock : "29:32"
+
+OPENCV           -> clock : "29:32"
+TESSERACT ONLY   -> clock : "29:32"
+TESSERACT CUSTOM -> clock : "29:32"
+TESSERACT ALL    -> clock : "5:38 2"
+
+________
+EXPECTED         -> score : "1 0"
+
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 0"
+TESSERACT CUSTOM -> score : "41 0"
+TESSERACT ALL    -> score : "111 00"
 
 
 **************************
 LEAGUE : liga-italiana
 **************************
 
-liga-italiana 1.jpg
-----------------
-OPENCV -> clock : '06:25'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '06:25'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '66:25'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '0625 06:25 04:25'
+liga-italiana 1
+--------------------------
+________
+EXPECTED         -> clock : "06:25"
 
-OPENCV -> score : '0-1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0-1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '0-1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '(11-4'
+OPENCV           -> clock : "06:25"
+TESSERACT ONLY   -> clock : "06:25"
+TESSERACT CUSTOM -> clock : "66:25"
+TESSERACT ALL    -> clock : "06:25 06:25 04:25"
 
-liga-italiana 2.jpg
-----------------
-OPENCV -> clock : '12:46'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '12:46'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '(2'
+________
+EXPECTED         -> score : "0 1"
 
-OPENCV -> score : '1-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-9'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1-0'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ''
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 1"
+TESSERACT ALL    -> score : "(1  1)"
 
-liga-italiana 3.jpg
-----------------
-OPENCV -> clock : '13:23'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '13:23'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '9'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ')'
+liga-italiana 2
+--------------------------
+________
+EXPECTED         -> clock : "12:46"
 
-OPENCV -> score : '0-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0-0'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '-0'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '-00-00-('
+OPENCV           -> clock : "12:46"
+TESSERACT ONLY   -> clock : "12:46"
+TESSERACT CUSTOM -> clock : ""
+TESSERACT ALL    -> clock : "2"
 
-liga-italiana 4.jpg
-----------------
-OPENCV -> clock : '42:39'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '42:39'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '42:99'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '439 4299 239'
+________
+EXPECTED         -> score : "1 0"
 
-OPENCV -> score : '1-1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1-1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '..'
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 9"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : "0"
 
-liga-italiana 5.jpg
-----------------
-OPENCV -> clock : '64:54'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '64:54'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '(66:54'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '54'
+liga-italiana 3
+--------------------------
+________
+EXPECTED         -> clock : "13:23"
 
-OPENCV -> score : '1-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-0'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1-0'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ''
+OPENCV           -> clock : "13:23"
+TESSERACT ONLY   -> clock : "13:23"
+TESSERACT CUSTOM -> clock : "9"
+TESSERACT ALL    -> clock : "123 1323 1323"
 
-liga-italiana 6.jpg
-----------------
-OPENCV -> clock : '92:45'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '92:45'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '69245.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '5 05 9205'
+________
+EXPECTED         -> score : "0 0"
 
-OPENCV -> score : '2-1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '2-1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '2-1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '2'
+OPENCV           -> score : "0 0"
+TESSERACT ONLY   -> score : "0 0"
+TESSERACT CUSTOM -> score : "0"
+TESSERACT ALL    -> score : "00 00 ("
 
-liga-italiana 7.jpg
-----------------
-OPENCV -> clock : '83:15'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '83:15'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '815.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '5 5'
+liga-italiana 4
+--------------------------
+________
+EXPECTED         -> clock : "42:39"
 
-OPENCV -> score : '4-2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '4-2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '6-2'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ''
+OPENCV           -> clock : "42:39"
+TESSERACT ONLY   -> clock : "42:39"
+TESSERACT CUSTOM -> clock : "42:99"
+TESSERACT ALL    -> clock : "439 4299 239"
 
-liga-italiana 8.jpg
-----------------
-OPENCV -> clock : '91:23'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '91:23'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '91:23'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '93 9123 9104'
+________
+EXPECTED         -> score : "1 1"
 
-OPENCV -> score : '0-1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0-1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '0-1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '(11.'
+OPENCV           -> score : "1 1"
+TESSERACT ONLY   -> score : "1 1"
+TESSERACT CUSTOM -> score : "1 1"
+TESSERACT ALL    -> score : "0"
+
+liga-italiana 5
+--------------------------
+________
+EXPECTED         -> clock : "64:54"
+
+OPENCV           -> clock : "64:54"
+TESSERACT ONLY   -> clock : "64:54"
+TESSERACT CUSTOM -> clock : "(66:54"
+TESSERACT ALL    -> clock : "54"
+
+________
+EXPECTED         -> score : "1 0"
+
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 0"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : "1)  ( 4"
+
+liga-italiana 6
+--------------------------
+________
+EXPECTED         -> clock : "92:45"
+
+OPENCV           -> clock : "92:45"
+TESSERACT ONLY   -> clock : "92:45"
+TESSERACT CUSTOM -> clock : "69245"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "2 1"
+
+OPENCV           -> score : "2 1"
+TESSERACT ONLY   -> score : "2 1"
+TESSERACT CUSTOM -> score : "2 1"
+TESSERACT ALL    -> score : "2"
+
+liga-italiana 7
+--------------------------
+________
+EXPECTED         -> clock : "83:15"
+
+OPENCV           -> clock : "83:15"
+TESSERACT ONLY   -> clock : "83:15"
+TESSERACT CUSTOM -> clock : "815"
+TESSERACT ALL    -> clock : "5 5"
+
+________
+EXPECTED         -> score : "4 2"
+
+OPENCV           -> score : "4 2"
+TESSERACT ONLY   -> score : "4 2"
+TESSERACT CUSTOM -> score : "6 2"
+TESSERACT ALL    -> score : "0"
+
+liga-italiana 8
+--------------------------
+________
+EXPECTED         -> clock : "91:23"
+
+OPENCV           -> clock : "91:23"
+TESSERACT ONLY   -> clock : "91:23"
+TESSERACT CUSTOM -> clock : "91:23"
+TESSERACT ALL    -> clock : "903 9124 9123"
+
+________
+EXPECTED         -> score : "0 1"
+
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 1"
+TESSERACT ALL    -> score : "10 40"
 
 
 **************************
 LEAGUE : NBA
 **************************
 
-NBA 1.jpg
-----------------
-OPENCV -> clock : '10:51'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '10:51'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '10:51'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '51 1057 0)'
+NBA 1
+--------------------------
+________
+EXPECTED         -> clock : "10:51"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : ''
+OPENCV           -> clock : "10:51"
+TESSERACT ONLY   -> clock : "10:51"
+TESSERACT CUSTOM -> clock : "10:51"
+TESSERACT ALL    -> clock : "51 1057 0)"
 
-OPENCV -> score : '2 c'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '2 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : '20 0.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '122 000'
+________
+EXPECTED         -> clockExtra : "24"
 
-NBA 10.jpg
-----------------
-OPENCV -> clock : '1:27'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : ''
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '4:97'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '197 4097 197'
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : ""
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : "4"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : ''
+________
+EXPECTED         -> score : "2 0"
 
-OPENCV -> score : '107 128'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '107 128'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '107 128'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '07) :'
+OPENCV           -> score : "2 0"
+TESSERACT ONLY   -> score : "2 0"
+TESSERACT CUSTOM -> score : "20 0."
+TESSERACT ALL    -> score : "122 000"
 
-NBA 11.jpg
-----------------
-OPENCV -> clock : '56.6'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '56.6'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '6'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 5'
+NBA 10
+--------------------------
+________
+EXPECTED         -> clock : "1:27"
 
-OPENCV -> clockExtra : '17'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '7'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '7 0'
+OPENCV           -> clock : "1:27"
+TESSERACT ONLY   -> clock : ""
+TESSERACT CUSTOM -> clock : "4:97"
+TESSERACT ALL    -> clock : "197 4097 197"
 
-OPENCV -> score : '107 128'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '107 128'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '107 128'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '7) :'
+________
+EXPECTED         -> clockExtra : "24"
 
-NBA 2.jpg
-----------------
-OPENCV -> clock : '9:08'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '9:08'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '6-08'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '0  0'
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : '-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : ''
+________
+EXPECTED         -> score : "107 128"
 
-OPENCV -> score : '5 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '5 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '5 2.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' 122'
+OPENCV           -> score : "107 128"
+TESSERACT ONLY   -> score : "107 128"
+TESSERACT CUSTOM -> score : "107 128"
+TESSERACT ALL    -> score : "07)"
 
-NBA 3.jpg
-----------------
-OPENCV -> clock : '2:56'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '2-56'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '6)56'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+NBA 11
+--------------------------
+________
+EXPECTED         -> clock : "56.6"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '4'
+OPENCV           -> clock : "56.6"
+TESSERACT ONLY   -> clock : "56.6"
+TESSERACT CUSTOM -> clock : "6"
+TESSERACT ALL    -> clock : "5"
 
-OPENCV -> score : '22 21'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '22 21'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '22 7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' '
+________
+EXPECTED         -> clockExtra : "17"
 
-NBA 4.jpg
-----------------
-OPENCV -> clock : '1:34'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '1:34'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '4934'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 13 13'
+OPENCV           -> clockExtra : "17"
+TESSERACT ONLY   -> clockExtra : "7"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : "0 0"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '4'
+________
+EXPECTED         -> score : "107 128"
 
-OPENCV -> score : '30 21'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '30 21'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '30. 21'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '40 30 20 )'
+OPENCV           -> score : "107 128"
+TESSERACT ONLY   -> score : "107 128"
+TESSERACT CUSTOM -> score : "107 128"
+TESSERACT ALL    -> score : "7)"
 
-NBA 5.jpg
-----------------
-OPENCV -> clock : '5:34'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '5:34'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '534'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+NBA 2
+--------------------------
+________
+EXPECTED         -> clock : "9:08"
 
-OPENCV -> clockExtra : 'b'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : ''
+OPENCV           -> clock : "9:08"
+TESSERACT ONLY   -> clock : "9:08"
+TESSERACT CUSTOM -> clock : "6 08"
+TESSERACT ALL    -> clock : "08  0"
 
-OPENCV -> score : '79 72'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '79 72'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '79 72'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '9 74 79 2'
+________
+EXPECTED         -> clockExtra : "24"
 
-NBA 6.jpg
-----------------
-OPENCV -> clock : '4:05'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '4:05'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '6405'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '105'
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
 
-OPENCV -> clockExtra : '17'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '7'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '0 0'
+________
+EXPECTED         -> score : "5 2"
 
-OPENCV -> score : '79 74'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '19 14'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '79 74'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '19 79 74 74 74 74'
+OPENCV           -> score : "5 2"
+TESSERACT ONLY   -> score : "5 2"
+TESSERACT CUSTOM -> score : "5 2."
+TESSERACT ALL    -> score : "0 122"
 
-NBA 7.jpg
-----------------
-OPENCV -> clock : '3:17'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '3:17'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '32:17'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+NBA 3
+--------------------------
+________
+EXPECTED         -> clock : "2:56"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '4'
+OPENCV           -> clock : "2:56"
+TESSERACT ONLY   -> clock : "2 56"
+TESSERACT CUSTOM -> clock : "6)56"
+TESSERACT ALL    -> clock : ""
 
-OPENCV -> score : '84 78'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '84 78'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '84 78'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '4 84 '
+________
+EXPECTED         -> clockExtra : "24"
 
-NBA 8.jpg
-----------------
-OPENCV -> clock : '2:16'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '2-15'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '316'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : ""
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : ':'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : '4'
+________
+EXPECTED         -> score : "22 21"
 
-OPENCV -> score : '105 122'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '105 122'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '105 122'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '105105104 '
+OPENCV           -> score : "22 21"
+TESSERACT ONLY   -> score : "22 21"
+TESSERACT CUSTOM -> score : "22 7"
+TESSERACT ALL    -> score : "0 0"
 
-NBA 9.jpg
-----------------
-OPENCV -> clock : '1:45'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '1:45'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '1'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '45 5'
+NBA 4
+--------------------------
+________
+EXPECTED         -> clock : "1:34"
 
-OPENCV -> clockExtra : '24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clockExtra : '74'
-TESSERACT WITH CUSTOM PREPROCESS -> clockExtra : '4'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clockExtra : ''
+OPENCV           -> clock : "1:34"
+TESSERACT ONLY   -> clock : "1:34"
+TESSERACT CUSTOM -> clock : "4934"
+TESSERACT ALL    -> clock : "1 13 13"
 
-OPENCV -> score : '105 126'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '105 126'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '105 126'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '105105105 2'
+________
+EXPECTED         -> clockExtra : "24"
+
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
+
+________
+EXPECTED         -> score : "30 21"
+
+OPENCV           -> score : "30 21"
+TESSERACT ONLY   -> score : "30 21"
+TESSERACT CUSTOM -> score : "30. 21"
+TESSERACT ALL    -> score : "40 30 0"
+
+NBA 5
+--------------------------
+________
+EXPECTED         -> clock : "5:34"
+
+OPENCV           -> clock : "5:34"
+TESSERACT ONLY   -> clock : "5:34"
+TESSERACT CUSTOM -> clock : "534"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> clockExtra : "8"
+
+OPENCV           -> clockExtra : "8"
+TESSERACT ONLY   -> clockExtra : ""
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
+
+________
+EXPECTED         -> score : "79 72"
+
+OPENCV           -> score : "79 72"
+TESSERACT ONLY   -> score : "79 72"
+TESSERACT CUSTOM -> score : "79 72"
+TESSERACT ALL    -> score : "9 74 79 2"
+
+NBA 6
+--------------------------
+________
+EXPECTED         -> clock : "4:05"
+
+OPENCV           -> clock : "4:05"
+TESSERACT ONLY   -> clock : "4:05"
+TESSERACT CUSTOM -> clock : "6405"
+TESSERACT ALL    -> clock : "105"
+
+________
+EXPECTED         -> clockExtra : "17"
+
+OPENCV           -> clockExtra : "17"
+TESSERACT ONLY   -> clockExtra : "7"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : "0"
+
+________
+EXPECTED         -> score : "79 74"
+
+OPENCV           -> score : "79 74"
+TESSERACT ONLY   -> score : "19 14"
+TESSERACT CUSTOM -> score : "79 74"
+TESSERACT ALL    -> score : "19 79 74 74 74 74"
+
+NBA 7
+--------------------------
+________
+EXPECTED         -> clock : "3:17"
+
+OPENCV           -> clock : "3:17"
+TESSERACT ONLY   -> clock : "3:17"
+TESSERACT CUSTOM -> clock : "32:17"
+TESSERACT ALL    -> clock : "477 7"
+
+________
+EXPECTED         -> clockExtra : "24"
+
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
+
+________
+EXPECTED         -> score : "84 78"
+
+OPENCV           -> score : "84 78"
+TESSERACT ONLY   -> score : "84 78"
+TESSERACT CUSTOM -> score : "84 78"
+TESSERACT ALL    -> score : "4 84 0"
+
+NBA 8
+--------------------------
+________
+EXPECTED         -> clock : "2:15"
+
+OPENCV           -> clock : "2:16"
+TESSERACT ONLY   -> clock : "2 15"
+TESSERACT CUSTOM -> clock : "316"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> clockExtra : "24"
+
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : ""
+TESSERACT ALL    -> clockExtra : ""
+
+________
+EXPECTED         -> score : "105 122"
+
+OPENCV           -> score : "105 122"
+TESSERACT ONLY   -> score : "105 122"
+TESSERACT CUSTOM -> score : "105 122"
+TESSERACT ALL    -> score : "105105104 0"
+
+NBA 9
+--------------------------
+________
+EXPECTED         -> clock : "1:45"
+
+OPENCV           -> clock : "1:45"
+TESSERACT ONLY   -> clock : "1:45"
+TESSERACT CUSTOM -> clock : "1"
+TESSERACT ALL    -> clock : "45 15"
+
+________
+EXPECTED         -> clockExtra : "24"
+
+OPENCV           -> clockExtra : "24"
+TESSERACT ONLY   -> clockExtra : "74"
+TESSERACT CUSTOM -> clockExtra : "4"
+TESSERACT ALL    -> clockExtra : ""
+
+________
+EXPECTED         -> score : "105 126"
+
+OPENCV           -> score : "105 126"
+TESSERACT ONLY   -> score : "105 126"
+TESSERACT CUSTOM -> score : "105 126"
+TESSERACT ALL    -> score : "105105105 2"
 
 
 **************************
 LEAGUE : NFL1
 **************************
 
-NFL1 1.jpg
-----------------
-OPENCV -> clock : '10:09 19'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '10:09 19'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '10:09 19'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1008 1009 10-9 0'
+NFL1 1
+--------------------------
+________
+EXPECTED         -> clock : "10:09 19"
 
-OPENCV -> downDistance : 'superbowllvn'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 's  .1i'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : 'super sowt v'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'tne spe. om.'
+OPENCV           -> clock : "10:09 19"
+TESSERACT ONLY   -> clock : "10:09 19"
+TESSERACT CUSTOM -> clock : "10:09 19"
+TESSERACT ALL    -> clock : "9 09 09 99"
 
-OPENCV -> score : '0 6'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 6'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' '
+________
+EXPECTED         -> downDistance : ""
 
-NFL1 2.jpg
-----------------
-OPENCV -> clock : '8:13 i'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '8:13 '
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '-8:13- '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 1 810 '
+OPENCV           -> downDistance : "SUPERBOWLLVN"
+TESSERACT ONLY   -> downDistance : "1"
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
 
-OPENCV -> downDistance : '262'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : ') 2m & 2'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '2m 62'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'mbt) tbl ) tebe'
+________
+EXPECTED         -> score : "0 6"
 
-OPENCV -> score : '0 7'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 7'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' 1)7'
+OPENCV           -> score : "0 6"
+TESSERACT ONLY   -> score : "0 0"
+TESSERACT CUSTOM -> score : "0 6"
+TESSERACT ALL    -> score : "0 0"
 
-NFL1 3.jpg
-----------------
-OPENCV -> clock : '5:00 36'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '9:00 36'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '5:00 36'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '00 300 84'
+NFL1 2
+--------------------------
+________
+EXPECTED         -> clock : "8:13"
 
-OPENCV -> downDistance : ':814'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 'ro & 14'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '3m 514'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : ') ool ) ool) doll'
+OPENCV           -> clock : "8:13"
+TESSERACT ONLY   -> clock : "8:13"
+TESSERACT CUSTOM -> clock : "8:13"
+TESSERACT ALL    -> clock : ""
 
-OPENCV -> score : '7 7'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '7 7'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '7 7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '117 1)1'
+________
+EXPECTED         -> downDistance : "2 2"
 
-NFL1 4.jpg
-----------------
-OPENCV -> clock : '13:31 36'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '13:31 36'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '13:31 38'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '31 3 231 '
+OPENCV           -> downDistance : "262"
+TESSERACT ONLY   -> downDistance : ") 2 2"
+TESSERACT CUSTOM -> downDistance : "2 62"
+TESSERACT ALL    -> downDistance : ")  ) ) :"
 
-OPENCV -> downDistance : '388'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : ') os& 8'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '3&8'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : ') web) ibd) ned'
+________
+EXPECTED         -> score : "0 7"
 
-OPENCV -> score : '7 14'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 14'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '7 4'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ') 1'
+OPENCV           -> score : "0 7"
+TESSERACT ONLY   -> score : "0 7"
+TESSERACT CUSTOM -> score : "0 7"
+TESSERACT ALL    -> score : "0 1)7"
 
-NFL1 5.jpg
-----------------
-OPENCV -> clock : '9:39 15'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '9:39 15'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '9:39 18'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '48) 990938 188'
+NFL1 3
+--------------------------
+________
+EXPECTED         -> clock : "5:00 36"
 
-OPENCV -> downDistance : 'superbowllim'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 'su  .vii'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : 'supe gow. tun'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'il an 0 il'
+OPENCV           -> clock : "5:00 36"
+TESSERACT ONLY   -> clock : "9:00 36"
+TESSERACT CUSTOM -> clock : "5:00 36"
+TESSERACT ALL    -> clock : "00 300"
 
-OPENCV -> score : '13 14'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '13 14'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '13 7)'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' '
+________
+EXPECTED         -> downDistance : "3 14"
 
-NFL1 6.jpg
-----------------
-OPENCV -> clock : '5:55 38'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '0:00 38'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '5:55 38'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' ) 00 )'
+OPENCV           -> downDistance : ":814"
+TESSERACT ONLY   -> downDistance : "3 14"
+TESSERACT CUSTOM -> downDistance : "3514"
+TESSERACT ALL    -> downDistance : ")  )  )"
 
-OPENCV -> downDistance : 'rw-down'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : ' 47rh'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '474 o'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'a0 a)'
+________
+EXPECTED         -> score : "7 7"
 
-OPENCV -> score : '14 14'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '14 14'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '14 4'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '14 '
+OPENCV           -> score : "7 7"
+TESSERACT ONLY   -> score : "7 7"
+TESSERACT CUSTOM -> score : "7 7"
+TESSERACT ALL    -> score : "117 1)1"
 
-NFL1 7.jpg
-----------------
-OPENCV -> clock : '2:20 33'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '2:20 33'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '2:20 33'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 20 200 '
+NFL1 4
+--------------------------
+________
+EXPECTED         -> clock : "13:31 36"
 
-OPENCV -> downDistance : 'superbowllin'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 's o 1i'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : 'supen sown ut'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : ' 0 0  0l'
+OPENCV           -> clock : "13:31 36"
+TESSERACT ONLY   -> clock : "13:31 36"
+TESSERACT CUSTOM -> clock : "13:31 38"
+TESSERACT ALL    -> clock : "31 3 231 8"
 
-OPENCV -> score : '14 20'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '14 20'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '14 20'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' 0 20 2)'
+________
+EXPECTED         -> downDistance : "3 8"
+
+OPENCV           -> downDistance : "388"
+TESSERACT ONLY   -> downDistance : ") 8"
+TESSERACT CUSTOM -> downDistance : "3 8"
+TESSERACT ALL    -> downDistance : ")  ) 6 )"
+
+________
+EXPECTED         -> score : "7 14"
+
+OPENCV           -> score : "7 14"
+TESSERACT ONLY   -> score : "0 14"
+TESSERACT CUSTOM -> score : "7 4"
+TESSERACT ALL    -> score : "1 1"
+
+NFL1 5
+--------------------------
+________
+EXPECTED         -> clock : "9:39 15"
+
+OPENCV           -> clock : "9:39 15"
+TESSERACT ONLY   -> clock : "9:39 15"
+TESSERACT CUSTOM -> clock : "9:39 18"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> downDistance : ""
+
+OPENCV           -> downDistance : "SUPERBOWLLIM"
+TESSERACT ONLY   -> downDistance : ""
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
+
+________
+EXPECTED         -> score : "13 14"
+
+OPENCV           -> score : "13 14"
+TESSERACT ONLY   -> score : "13 14"
+TESSERACT CUSTOM -> score : "13 7)"
+TESSERACT ALL    -> score : "0 1"
+
+NFL1 6
+--------------------------
+________
+EXPECTED         -> clock : "5:55 38"
+
+OPENCV           -> clock : "5:55 38"
+TESSERACT ONLY   -> clock : "0:00 38"
+TESSERACT CUSTOM -> clock : "5:55 38"
+TESSERACT ALL    -> clock : "85 585 585"
+
+________
+EXPECTED         -> downDistance : "4 down"
+
+OPENCV           -> downDistance : "rw Down"
+TESSERACT ONLY   -> downDistance : "47"
+TESSERACT CUSTOM -> downDistance : "474"
+TESSERACT ALL    -> downDistance : ") )  )"
+
+________
+EXPECTED         -> score : "14 14"
+
+OPENCV           -> score : "14 14"
+TESSERACT ONLY   -> score : "14 14"
+TESSERACT CUSTOM -> score : "14 4"
+TESSERACT ALL    -> score : "14 0"
+
+NFL1 7
+--------------------------
+________
+EXPECTED         -> clock : "2:20 33"
+
+OPENCV           -> clock : "2:20 33"
+TESSERACT ONLY   -> clock : "2:20 33"
+TESSERACT CUSTOM -> clock : "2:20 33"
+TESSERACT ALL    -> clock : "22) 20"
+
+________
+EXPECTED         -> downDistance : ""
+
+OPENCV           -> downDistance : "SUPERBOWLLIN"
+TESSERACT ONLY   -> downDistance : "1"
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : "0"
+
+________
+EXPECTED         -> score : "14 20"
+
+OPENCV           -> score : "14 20"
+TESSERACT ONLY   -> score : "14 20"
+TESSERACT CUSTOM -> score : "14 20"
+TESSERACT ALL    -> score : "0 2020"
 
 
 **************************
 LEAGUE : NFL2
 **************************
 
-NFL2 1.jpg
-----------------
-OPENCV -> clock : '1:21 35'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '121 435'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : ' 35'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 2 '
+NFL2 1
+--------------------------
+________
+EXPECTED         -> clock : "1:21 35"
 
-OPENCV -> downDistance : 'the'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : ''
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '..'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : ''
+OPENCV           -> clock : "1:21 35"
+TESSERACT ONLY   -> clock : "121 435"
+TESSERACT CUSTOM -> clock : "35"
+TESSERACT ALL    -> clock : "2 5"
 
-OPENCV -> score : '-0 13-.'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 73-'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 13-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 '
+________
+EXPECTED         -> downDistance : ""
 
-NFL2 2.jpg
-----------------
-OPENCV -> clock : '15:00 17'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '1500 17'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '95:00 - 77'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1800 1500 0 17'
+OPENCV           -> downDistance : "the"
+TESSERACT ONLY   -> downDistance : ""
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
 
-OPENCV -> downDistance : '2ndeb'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 'enos&8'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : ' gnpseg -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'aah eyed dang'
+________
+EXPECTED         -> score : "0 13"
 
-OPENCV -> score : '- 14-.'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '0  1 ('
+OPENCV           -> score : "0 13"
+TESSERACT ONLY   -> score : "0 73"
+TESSERACT CUSTOM -> score : "0 13"
+TESSERACT ALL    -> score : "00 0"
 
-NFL2 3.jpg
-----------------
-OPENCV -> clock : '14:55 14'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '1455 14'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '44:55 14'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1455 1455 14 14 14 14'
+NFL2 2
+--------------------------
+________
+EXPECTED         -> clock : "15:00 17"
 
-OPENCV -> downDistance : 'rdeb'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : '3roe8g'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : '3roeg -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : '3gd ad ag'
+OPENCV           -> clock : "15:00 17"
+TESSERACT ONLY   -> clock : "1500 17"
+TESSERACT CUSTOM -> clock : "95:00 77"
+TESSERACT ALL    -> clock : "0) 1500 1500 0 47"
 
-OPENCV -> score : '- 14-.'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 1 ('
+________
+EXPECTED         -> downDistance : "2 8"
 
-NFL2 4.jpg
-----------------
-OPENCV -> clock : '14:47 24'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '14:47 24'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '44:47 - 24'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1447 1447 1447 24 24 24'
+OPENCV           -> downDistance : "2ndeB"
+TESSERACT ONLY   -> downDistance : "68"
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
 
-OPENCV -> downDistance : '4th613'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : '47f& 13'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : ' 8theiz -'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'duoiy  dwatd dna)'
+________
+EXPECTED         -> score : "0 14"
 
-OPENCV -> score : '- 14-.'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 14-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '0  1 ('
+OPENCV           -> score : "0 14"
+TESSERACT ONLY   -> score : "0 14"
+TESSERACT CUSTOM -> score : "0 14"
+TESSERACT ALL    -> score : "0 1 ("
 
-NFL2 5.jpg
-----------------
-OPENCV -> clock : '7:29 37'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '729 37'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : ' 7 37'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1 7 78 79'
+NFL2 3
+--------------------------
+________
+EXPECTED         -> clock : "14:55 14"
 
-OPENCV -> downDistance : 't'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : '-'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : ''
+OPENCV           -> clock : "14:55 14"
+TESSERACT ONLY   -> clock : "1455 14"
+TESSERACT CUSTOM -> clock : "44:55 14"
+TESSERACT ALL    -> clock : "1455 1455 14 14 14 14"
 
-OPENCV -> score : '- 20-'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 2)-'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 20-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '00 2 2'
+________
+EXPECTED         -> downDistance : "3 8"
 
-NFL2 6.jpg
-----------------
-OPENCV -> clock : '6:15 34'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '6:15 34'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '815 34'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 4'
+OPENCV           -> downDistance : "rdeB"
+TESSERACT ONLY   -> downDistance : "38"
+TESSERACT CUSTOM -> downDistance : "3"
+TESSERACT ALL    -> downDistance : "3 6"
 
-OPENCV -> downDistance : 't'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 'a'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : 'a ee'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'ee ve'
+________
+EXPECTED         -> score : "0 14"
 
-OPENCV -> score : '-6 28-'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 28'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 28'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' '
+OPENCV           -> score : "0 14"
+TESSERACT ONLY   -> score : "0 14"
+TESSERACT CUSTOM -> score : "0 14"
+TESSERACT ALL    -> score : "00 1 ("
 
-NFL2 7.jpg
-----------------
-OPENCV -> clock : '15:00 15'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '1500 15'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '695:00 7 5'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1500 1500 5 15 15'
+NFL2 4
+--------------------------
+________
+EXPECTED         -> clock : "14:47 24"
 
-OPENCV -> downDistance : '1st610'
-TESSERACT WITH TESSERACTS' PREPROCESS -> downDistance : 'ists 10'
-TESSERACT WITH CUSTOM PREPROCESS -> downDistance : ' staia'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> downDistance : 'foratd feratd feral'
+OPENCV           -> clock : "14:47 24"
+TESSERACT ONLY   -> clock : "14:47 24"
+TESSERACT CUSTOM -> clock : "44:47 24"
+TESSERACT ALL    -> clock : "1447 1447 1447 24 24 24"
 
-OPENCV -> score : '-7 28-'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '-7 28'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 28'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ') 2'
+________
+EXPECTED         -> downDistance : "4 13"
+
+OPENCV           -> downDistance : "4TH613"
+TESSERACT ONLY   -> downDistance : "476 13"
+TESSERACT CUSTOM -> downDistance : "8"
+TESSERACT ALL    -> downDistance : ")"
+
+________
+EXPECTED         -> score : "0 14"
+
+OPENCV           -> score : "0 14"
+TESSERACT ONLY   -> score : "0 14"
+TESSERACT CUSTOM -> score : "0 14"
+TESSERACT ALL    -> score : "0 1 ("
+
+NFL2 5
+--------------------------
+________
+EXPECTED         -> clock : "7:29 37"
+
+OPENCV           -> clock : "7:29 37"
+TESSERACT ONLY   -> clock : "729 37"
+TESSERACT CUSTOM -> clock : "7 37"
+TESSERACT ALL    -> clock : "1 7 78 79"
+
+________
+EXPECTED         -> downDistance : ""
+
+OPENCV           -> downDistance : "t"
+TESSERACT ONLY   -> downDistance : ""
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
+
+________
+EXPECTED         -> score : "0 20"
+
+OPENCV           -> score : "0 20"
+TESSERACT ONLY   -> score : "0 2)"
+TESSERACT CUSTOM -> score : "0 20"
+TESSERACT ALL    -> score : "00 20"
+
+NFL2 6
+--------------------------
+________
+EXPECTED         -> clock : "6:15 34"
+
+OPENCV           -> clock : "6:15 34"
+TESSERACT ONLY   -> clock : "6:15 34"
+TESSERACT CUSTOM -> clock : "815 34"
+TESSERACT ALL    -> clock : "4"
+
+________
+EXPECTED         -> downDistance : ""
+
+OPENCV           -> downDistance : "t"
+TESSERACT ONLY   -> downDistance : ""
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
+
+________
+EXPECTED         -> score : "6 28"
+
+OPENCV           -> score : "6 28"
+TESSERACT ONLY   -> score : "0 28"
+TESSERACT CUSTOM -> score : "0 28"
+TESSERACT ALL    -> score : "0 0"
+
+NFL2 7
+--------------------------
+________
+EXPECTED         -> clock : "15:00 15"
+
+OPENCV           -> clock : "15:00 15"
+TESSERACT ONLY   -> clock : "1500 15"
+TESSERACT CUSTOM -> clock : "695:00 7 5"
+TESSERACT ALL    -> clock : "0) 1500 1500 5 15 45"
+
+________
+EXPECTED         -> downDistance : "1 10"
+
+OPENCV           -> downDistance : "1st610"
+TESSERACT ONLY   -> downDistance : "6 10"
+TESSERACT CUSTOM -> downDistance : ""
+TESSERACT ALL    -> downDistance : ""
+
+________
+EXPECTED         -> score : "7 28"
+
+OPENCV           -> score : "7 28"
+TESSERACT ONLY   -> score : "7 28"
+TESSERACT CUSTOM -> score : "0 28"
+TESSERACT ALL    -> score : "2"
 
 
 **************************
 LEAGUE : pt-cup
 **************************
 
-pt-cup 1.jpg
-----------------
-OPENCV -> clock : '18:45'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '18:45'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '16:05-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ' 1 1'
+pt-cup 1
+--------------------------
+________
+EXPECTED         -> clock : "18:45"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' .'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 1'
+OPENCV           -> clock : "18:45"
+TESSERACT ONLY   -> clock : "18:45"
+TESSERACT CUSTOM -> clock : "16:05"
+TESSERACT ALL    -> clock : "1 1"
 
-OPENCV -> scoreExtra : '-'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : '.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : '200.'
+________
+EXPECTED         -> score : "0 1"
 
-pt-cup 10.jpg
-----------------
-OPENCV -> clock : '90:00'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '90:00'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '90:00'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '000 000 90:00'
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 1"
 
-OPENCV -> score : '0 5'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 5'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 '
+________
+EXPECTED         -> scoreExtra : ""
 
-OPENCV -> scoreExtra : 'a'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : "200"
 
-pt-cup 11.jpg
-----------------
-OPENCV -> clock : '04:11'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '04:11'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '04:11'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '411 41) 041'
+pt-cup 10
+--------------------------
+________
+EXPECTED         -> clock : "90:00"
 
-OPENCV -> score : '0 0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 '
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 0'
+OPENCV           -> clock : "90:00"
+TESSERACT ONLY   -> clock : "90:00"
+TESSERACT CUSTOM -> clock : "90:00"
+TESSERACT ALL    -> clock : "400 9000 90:00"
 
-OPENCV -> scoreExtra : 'i'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+________
+EXPECTED         -> score : "0 5"
 
-pt-cup 2.jpg
-----------------
-OPENCV -> clock : '20:36'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '20:36'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '20:36.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '036 2035 2038'
+OPENCV           -> score : "0 5"
+TESSERACT ONLY   -> score : "0 5"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 4"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 1'
+________
+EXPECTED         -> scoreExtra : ""
 
-OPENCV -> scoreExtra : '(2-2)'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : '(2-2)'
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : '(2-2)'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : '() ) (-'
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
 
-pt-cup 3.jpg
-----------------
-OPENCV -> clock : '28:38'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '26:38'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '28:38.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '2839 2038 2838'
+pt-cup 11
+--------------------------
+________
+EXPECTED         -> clock : "04:11"
 
-OPENCV -> score : '1 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '11 1'
+OPENCV           -> clock : "04:11"
+TESSERACT ONLY   -> clock : "04:11"
+TESSERACT CUSTOM -> clock : "04:11"
+TESSERACT ALL    -> clock : "411 41) 041"
 
-OPENCV -> scoreExtra : '(3-2)'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : '(3-2)'
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : '(3-2)'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+________
+EXPECTED         -> score : "0 0"
 
-pt-cup 4.jpg
-----------------
-OPENCV -> clock : '30:09'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '30:09'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '30:03'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '3005 3003 30.09'
+OPENCV           -> score : "0 0"
+TESSERACT ONLY   -> score : "0 0"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 0"
 
-OPENCV -> score : '1 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '1)1 1'
+________
+EXPECTED         -> scoreExtra : ""
 
-OPENCV -> scoreExtra : '(3-2)'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : '(3-2)'
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : '(3-2)'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ') )'
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
 
-pt-cup 5.jpg
-----------------
-OPENCV -> clock : '63:31'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '63:31'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '639:31-'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '3) 33) 331'
+pt-cup 2
+--------------------------
+________
+EXPECTED         -> clock : "20:36"
 
-OPENCV -> score : '1 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '1 '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ')1 '
+OPENCV           -> clock : "20:36"
+TESSERACT ONLY   -> clock : "20:36"
+TESSERACT CUSTOM -> clock : "20:36"
+TESSERACT ALL    -> clock : "136 036 30"
 
-OPENCV -> scoreExtra : 't'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : '. .'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+________
+EXPECTED         -> score : "0 1"
 
-pt-cup 6.jpg
-----------------
-OPENCV -> clock : '77:35'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '77:35'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '77:35.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 1"
 
-OPENCV -> score : '0 4'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 4'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 4'
+________
+EXPECTED         -> scoreExtra : "(2 2)"
 
-OPENCV -> scoreExtra : 'a'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : '- 7'
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+OPENCV           -> scoreExtra : "(2 2)"
+TESSERACT ONLY   -> scoreExtra : "(2 2)"
+TESSERACT CUSTOM -> scoreExtra : "(2 2)"
+TESSERACT ALL    -> scoreExtra : ""
 
-pt-cup 7.jpg
-----------------
-OPENCV -> clock : '75:20'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '75:20'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '78:20'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '0 1820 1820'
+pt-cup 3
+--------------------------
+________
+EXPECTED         -> clock : "28:38"
 
-OPENCV -> score : '0 1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 4'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' 11'
+OPENCV           -> clock : "28:38"
+TESSERACT ONLY   -> clock : "26:38"
+TESSERACT CUSTOM -> clock : "28:38"
+TESSERACT ALL    -> clock : "38 38 38"
 
-OPENCV -> scoreExtra : 'i'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+________
+EXPECTED         -> score : "1 1"
 
-pt-cup 8.jpg
-----------------
-OPENCV -> clock : '78:09'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '78:09'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '76:05'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '809 1809'
+OPENCV           -> score : "1 1"
+TESSERACT ONLY   -> score : "1 1"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : "1)1 1"
 
-OPENCV -> score : '0 4'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0 4'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' '
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '000 '
+________
+EXPECTED         -> scoreExtra : "(3 2)"
 
-OPENCV -> scoreExtra : 'the'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : '1'
+OPENCV           -> scoreExtra : "(3 2)"
+TESSERACT ONLY   -> scoreExtra : "(3 2)"
+TESSERACT CUSTOM -> scoreExtra : "(3 2)"
+TESSERACT ALL    -> scoreExtra : ""
 
-pt-cup 9.jpg
-----------------
-OPENCV -> clock : '85:04'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '85:04'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '(95:08'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '504 504 0500'
+pt-cup 4
+--------------------------
+________
+EXPECTED         -> clock : "30:09"
 
-OPENCV -> score : '0 2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ' 2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : ' 2'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ' '
+OPENCV           -> clock : "30:09"
+TESSERACT ONLY   -> clock : "30:09"
+TESSERACT CUSTOM -> clock : "30:03"
+TESSERACT ALL    -> clock : "3109 3109 3009"
 
-OPENCV -> scoreExtra : 'i'
-TESSERACT WITH TESSERACTS' PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM PREPROCESS -> scoreExtra : ''
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> scoreExtra : ''
+________
+EXPECTED         -> score : "1 1"
+
+OPENCV           -> score : "1 1"
+TESSERACT ONLY   -> score : "1 1"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : "1)1 1"
+
+________
+EXPECTED         -> scoreExtra : "(3 2)"
+
+OPENCV           -> scoreExtra : "(3 2)"
+TESSERACT ONLY   -> scoreExtra : "(3 2)"
+TESSERACT CUSTOM -> scoreExtra : "(3 2)"
+TESSERACT ALL    -> scoreExtra : ""
+
+pt-cup 5
+--------------------------
+________
+EXPECTED         -> clock : "63:31"
+
+OPENCV           -> clock : "63:31"
+TESSERACT ONLY   -> clock : "63:31"
+TESSERACT CUSTOM -> clock : "639:31"
+TESSERACT ALL    -> clock : ") 23) 093)"
+
+________
+EXPECTED         -> score : "1 2"
+
+OPENCV           -> score : "1 2"
+TESSERACT ONLY   -> score : "1 2"
+TESSERACT CUSTOM -> score : "1 0"
+TESSERACT ALL    -> score : ")1 0"
+
+________
+EXPECTED         -> scoreExtra : ""
+
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
+
+pt-cup 6
+--------------------------
+________
+EXPECTED         -> clock : "77:35"
+
+OPENCV           -> clock : "77:35"
+TESSERACT ONLY   -> clock : "77:35"
+TESSERACT CUSTOM -> clock : "77:35"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "0 4"
+
+OPENCV           -> score : "0 4"
+TESSERACT ONLY   -> score : "0 4"
+TESSERACT CUSTOM -> score : "0 7"
+TESSERACT ALL    -> score : "000 4"
+
+________
+EXPECTED         -> scoreExtra : ""
+
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : "7"
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
+
+pt-cup 7
+--------------------------
+________
+EXPECTED         -> clock : "75:20"
+
+OPENCV           -> clock : "75:20"
+TESSERACT ONLY   -> clock : "75:20"
+TESSERACT CUSTOM -> clock : "78:20"
+TESSERACT ALL    -> clock : "20 1520 18:20"
+
+________
+EXPECTED         -> score : "0 1"
+
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "0 4"
+TESSERACT ALL    -> score : "0 )1"
+
+________
+EXPECTED         -> scoreExtra : ""
+
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
+
+pt-cup 8
+--------------------------
+________
+EXPECTED         -> clock : "78:09"
+
+OPENCV           -> clock : "78:09"
+TESSERACT ONLY   -> clock : "78:09"
+TESSERACT CUSTOM -> clock : "76:05"
+TESSERACT ALL    -> clock : "09 ) 1809"
+
+________
+EXPECTED         -> score : "0 4"
+
+OPENCV           -> score : "0 4"
+TESSERACT ONLY   -> score : "0 4"
+TESSERACT CUSTOM -> score : "0 0"
+TESSERACT ALL    -> score : "000 4"
+
+________
+EXPECTED         -> scoreExtra : ""
+
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : "1"
+
+pt-cup 9
+--------------------------
+________
+EXPECTED         -> clock : "85:04"
+
+OPENCV           -> clock : "85:04"
+TESSERACT ONLY   -> clock : "85:04"
+TESSERACT CUSTOM -> clock : "(95:08"
+TESSERACT ALL    -> clock : "04 504 00"
+
+________
+EXPECTED         -> score : "0 2"
+
+OPENCV           -> score : "0 2"
+TESSERACT ONLY   -> score : "0 2"
+TESSERACT CUSTOM -> score : "0 2"
+TESSERACT ALL    -> score : "0 0"
+
+________
+EXPECTED         -> scoreExtra : ""
+
+OPENCV           -> scoreExtra : ""
+TESSERACT ONLY   -> scoreExtra : ""
+TESSERACT CUSTOM -> scoreExtra : ""
+TESSERACT ALL    -> scoreExtra : ""
 
 
 **************************
 LEAGUE : taca-da-liga
 **************************
 
-taca-da-liga 1.jpg
-----------------
-OPENCV -> clock : '00:51'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '00:51'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '00:51'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '051 051 00:54'
+taca-da-liga 1
+--------------------------
+________
+EXPECTED         -> clock : "00:51"
 
-OPENCV -> score : '0-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ''
-TESSERACT WITH CUSTOM PREPROCESS -> score : '00'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '100 00 0'
+OPENCV           -> clock : "00:51"
+TESSERACT ONLY   -> clock : "00:51"
+TESSERACT CUSTOM -> clock : "00:51"
+TESSERACT ALL    -> clock : "051 05 00:54"
 
-taca-da-liga 2.jpg
-----------------
-OPENCV -> clock : '06:35'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '06:35'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '06:35.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '16:35 4:35 06:35'
+________
+EXPECTED         -> score : "0 0"
 
-OPENCV -> score : '1-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-0'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '10'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '101010'
+OPENCV           -> score : "0 0"
+TESSERACT ONLY   -> score : "0"
+TESSERACT CUSTOM -> score : "00"
+TESSERACT ALL    -> score : "100 00 0"
 
-taca-da-liga 3.jpg
-----------------
-OPENCV -> clock : '09:11'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '09:11'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '09:11'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '9 0 1'
+taca-da-liga 2
+--------------------------
+________
+EXPECTED         -> clock : "06:35"
 
-OPENCV -> score : '0-1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0-1'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '7'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '1104'
+OPENCV           -> clock : "06:35"
+TESSERACT ONLY   -> clock : "06:35"
+TESSERACT CUSTOM -> clock : "06:35"
+TESSERACT ALL    -> clock : "16:85 4:35 06:35"
 
-taca-da-liga 4.jpg
-----------------
-OPENCV -> clock : '19:18'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '19:18'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '19:18'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '1048 104 1048'
+________
+EXPECTED         -> score : "1 0"
 
-OPENCV -> score : '3-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '3-0'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '2.9'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '409-09.'
+OPENCV           -> score : "1 0"
+TESSERACT ONLY   -> score : "1 0"
+TESSERACT CUSTOM -> score : "10"
+TESSERACT ALL    -> score : "101010"
 
-taca-da-liga 5.jpg
-----------------
-OPENCV -> clock : '69:42'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '69:42'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '(69:62.'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '2 02 2'
+taca-da-liga 3
+--------------------------
+________
+EXPECTED         -> clock : "09:11"
 
-OPENCV -> score : '1.1'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-14'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '41-41'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : ''
+OPENCV           -> clock : "09:11"
+TESSERACT ONLY   -> clock : "09:11"
+TESSERACT CUSTOM -> clock : "09:11"
+TESSERACT ALL    -> clock : ""
 
-taca-da-liga 6.jpg
-----------------
-OPENCV -> clock : '76:31'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '76:31'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '76:31'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : ''
+________
+EXPECTED         -> score : "0 1"
 
-OPENCV -> score : '5-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : ''
-TESSERACT WITH CUSTOM PREPROCESS -> score : '5-0'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '505-05.)'
+OPENCV           -> score : "0 1"
+TESSERACT ONLY   -> score : "0 1"
+TESSERACT CUSTOM -> score : "7"
+TESSERACT ALL    -> score : "1104"
 
-taca-da-liga 7.jpg
-----------------
-OPENCV -> clock : '79:20'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '79:20'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '79:20'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '20 820 142'
+taca-da-liga 4
+--------------------------
+________
+EXPECTED         -> clock : "19:18"
 
-OPENCV -> score : '3-0'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '3-0'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '49'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '40403 0'
+OPENCV           -> clock : "19:18"
+TESSERACT ONLY   -> clock : "19:18"
+TESSERACT CUSTOM -> clock : "19:18"
+TESSERACT ALL    -> clock : "1048 1048 1018"
 
-taca-da-liga 8.jpg
-----------------
-OPENCV -> clock : '89:12'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '89:12'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '9:12'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '2 02 92'
+________
+EXPECTED         -> score : "3 0"
 
-OPENCV -> score : '1.2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '1-2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '41-2'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '122)'
+OPENCV           -> score : "3 0"
+TESSERACT ONLY   -> score : "3 0"
+TESSERACT CUSTOM -> score : "2 9"
+TESSERACT ALL    -> score : "409 09 )"
 
-taca-da-liga 9.jpg
-----------------
-OPENCV -> clock : '86:57'
-TESSERACT WITH TESSERACTS' PREPROCESS -> clock : '86:57'
-TESSERACT WITH CUSTOM PREPROCESS -> clock : '6:57'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> clock : '457 8457 0:57'
+taca-da-liga 5
+--------------------------
+________
+EXPECTED         -> clock : "69:42"
 
-OPENCV -> score : '0-2'
-TESSERACT WITH TESSERACTS' PREPROCESS -> score : '0.2'
-TESSERACT WITH CUSTOM PREPROCESS -> score : '2'
-TESSERACT WITH CUSTOM AND TESSERACTS' PREPROCESS -> score : '120202'
+OPENCV           -> clock : "69:42"
+TESSERACT ONLY   -> clock : "69:42"
+TESSERACT CUSTOM -> clock : "(69:62"
+TESSERACT ALL    -> clock : "2  2"
+
+________
+EXPECTED         -> score : "1 1"
+
+OPENCV           -> score : "1 1"
+TESSERACT ONLY   -> score : "1 14"
+TESSERACT CUSTOM -> score : "41 41"
+TESSERACT ALL    -> score : "0"
+
+taca-da-liga 6
+--------------------------
+________
+EXPECTED         -> clock : "76:31"
+
+OPENCV           -> clock : "76:31"
+TESSERACT ONLY   -> clock : "76:31"
+TESSERACT CUSTOM -> clock : "76:31"
+TESSERACT ALL    -> clock : ""
+
+________
+EXPECTED         -> score : "5 0"
+
+OPENCV           -> score : "5 0"
+TESSERACT ONLY   -> score : "0"
+TESSERACT CUSTOM -> score : "5 0"
+TESSERACT ALL    -> score : "505 05 )"
+
+taca-da-liga 7
+--------------------------
+________
+EXPECTED         -> clock : "79:20"
+
+OPENCV           -> clock : "79:20"
+TESSERACT ONLY   -> clock : "79:20"
+TESSERACT CUSTOM -> clock : "79:20"
+TESSERACT ALL    -> clock : "20 820 182)"
+
+________
+EXPECTED         -> score : "3 0"
+
+OPENCV           -> score : "3 0"
+TESSERACT ONLY   -> score : "3 0"
+TESSERACT CUSTOM -> score : "49"
+TESSERACT ALL    -> score : "40403 0"
+
+taca-da-liga 8
+--------------------------
+________
+EXPECTED         -> clock : "89:12"
+
+OPENCV           -> clock : "89:12"
+TESSERACT ONLY   -> clock : "89:12"
+TESSERACT CUSTOM -> clock : "9:12"
+TESSERACT ALL    -> clock : "2 12 92"
+
+________
+EXPECTED         -> score : "1 2"
+
+OPENCV           -> score : "1 2"
+TESSERACT ONLY   -> score : "1 2"
+TESSERACT CUSTOM -> score : "41 2"
+TESSERACT ALL    -> score : "12"
+
+taca-da-liga 9
+--------------------------
+________
+EXPECTED         -> clock : "86:57"
+
+OPENCV           -> clock : "86:57"
+TESSERACT ONLY   -> clock : "86:57"
+TESSERACT CUSTOM -> clock : "6:57"
+TESSERACT ALL    -> clock : "457 8457 0:87"
+
+________
+EXPECTED         -> score : "0 2"
+
+OPENCV           -> score : "0 2"
+TESSERACT ONLY   -> score : "0 2"
+TESSERACT CUSTOM -> score : "2"
+TESSERACT ALL    -> score : "120202"
 

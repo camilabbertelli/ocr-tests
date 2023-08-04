@@ -120,22 +120,9 @@ int main(int argc, char **argv)
         }
     }
 
-    // writing thee json object
+    // writing the json object
 
-    if (!json.empty())
-    {
-        ofstream file;
-        stringstream pathWrite;
-
-        pathWrite << argv[1] << "/" << argv[1] << ".json";
-
-        file.open(pathWrite.str());
-
-        Json::StyledWriter jsonWriter;
-        file << jsonWriter.write(json);
-
-        file.close();
-    }
+    writeJson(json, windowName + "/" + windowName + ".json");
 
     cv::destroyAllWindows();
     return 0;

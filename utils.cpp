@@ -34,17 +34,6 @@ void camicasa::preprocess(Mat &input, Mat &output)
     //dilate(output, output, element);
 }
 
-void camicasa::postprocess(string &text, bool keepLetters){
-
-    toLowerString(text);
-
-    removeIfLast(text, '\n');
-    removeIfLast(text, ' ');
-
-    if (!keepLetters)
-        replace(text.begin(), text.end(), 'o', '0');
-}
-
 string camicasa::opencvRecognition(Mat &input, string modelPath, string vocabPath)
 {
     // opencv ocr set recognition model
@@ -56,8 +45,8 @@ string camicasa::opencvRecognition(Mat &input, string modelPath, string vocabPat
     vocFile.open(vocabPath);
     CV_Assert(vocFile.is_open());
 
-    String vocLine;
-    std::vector<String> vocabulary;
+    string vocLine;
+    std::vector<string> vocabulary;
     while (std::getline(vocFile, vocLine))
         vocabulary.push_back(vocLine);
 
@@ -100,31 +89,62 @@ bool camicasa::contains(vector<string> &vec, string element){
     return (find(vec.begin(), vec.end(), element) != vec.end());
 }
 
-string camicasa::splitKeyLetters(string key){
-
-    string letters;
-    
-    for (char const &ch : key) {
-        if (isdigit(ch))
-            break;
-        letters.push_back(ch);
-    }
-    return letters;
-}
-
 void camicasa::toLowerString(string &text){
     transform(text.begin(), text.end(), text.begin(), ::tolower);
 }
 
-void camicasa::removeIfLast(string &text, char c){
-    if (text.back() == c)
-        text.pop_back();
+void camicasa::removeIfFirstLast(string &text, char c){
+    // remove from the beginning
+    int first = 0;
+    while (text[first] == c)
+        first++;
+    text = text.substr(first, text.size());
+
+    // remove from the end
+    int last = text.size() - 1;
+    while (last >= 0 && text[last] == c)
+        --last;
+    text = text.substr(0, last + 1);
 }
 
-void camicasa::tuneWhiteBlackLists(tesseract::TessBaseAPI *ocr, bool keepLetters){
-    const char* tessedit_char_whitelist = (keepLetters) ? "0123456789.:- ()&abccdefghijklmnopqrstuvwxyz" : "0123456789.:- ()";
-    const char* tessedit_char_blacklist = (keepLetters) ? "" : "abccdefghijklmnopqrstuvwxyz";
+void camicasa::removeLettersFromNumbers(string& text){
+    string aux;
+    bool lastSeenNumber = false;
 
-    ocr->SetVariable("tessedit_char_whitelist", tessedit_char_whitelist);
-    ocr->SetVariable("tessedit_char_blacklist", tessedit_char_blacklist);
+    for (char ch : text)
+        if (isalpha(ch)){
+            if (lastSeenNumber){
+                lastSeenNumber = false;
+                aux.push_back(' ');
+            }
+        }
+        else{
+            lastSeenNumber = true;
+            aux.push_back(ch);
+        }
+    
+    text = aux;
+}
+
+void camicasa::writeJson(Json::Value json, string path){
+    if (!json.empty())
+    {
+        ofstream file;
+
+        file.open(path);
+
+        Json::StyledWriter jsonWriter;
+        file << jsonWriter.write(json);
+
+        file.close();
+    }
+}
+
+bool camicasa::containsNumber(string text){
+
+    for (char ch : text)
+        if (isdigit(ch))
+            return true;
+
+    return false;
 }
