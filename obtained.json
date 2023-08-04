@@ -3,13 +3,13 @@
       "1" : {
          "clock" : {
             "opencv" : "10:51",
-            "tessAll" : "51 1057 0)",
+            "tessAll" : "5) 105) 1051",
             "tessCustom" : "10:51",
             "tessOnly" : "10:51"
          },
          "clockExtra" : {
             "opencv" : "24",
-            "tessAll" : "4",
+            "tessAll" : "",
             "tessCustom" : "",
             "tessOnly" : ""
          },
@@ -89,13 +89,13 @@
          },
          "clockExtra" : {
             "opencv" : "24",
-            "tessAll" : "",
+            "tessAll" : "4",
             "tessCustom" : "",
             "tessOnly" : ""
          },
          "score" : {
             "opencv" : "22 21",
-            "tessAll" : "0 0",
+            "tessAll" : "012 0",
             "tessCustom" : "22 7",
             "tessOnly" : "22 21"
          }
@@ -103,19 +103,19 @@
       "4" : {
          "clock" : {
             "opencv" : "1:34",
-            "tessAll" : "1 13 13",
+            "tessAll" : "13 13",
             "tessCustom" : "4934",
             "tessOnly" : "1:34"
          },
          "clockExtra" : {
             "opencv" : "24",
-            "tessAll" : "",
+            "tessAll" : "4",
             "tessCustom" : "",
             "tessOnly" : "74"
          },
          "score" : {
             "opencv" : "30 21",
-            "tessAll" : "40 30 0",
+            "tessAll" : "40 30 0 0",
             "tessCustom" : "30. 21",
             "tessOnly" : "30 21"
          }
@@ -129,7 +129,7 @@
          },
          "clockExtra" : {
             "opencv" : "8",
-            "tessAll" : "",
+            "tessAll" : "8",
             "tessCustom" : "",
             "tessOnly" : ""
          },
@@ -149,7 +149,7 @@
          },
          "clockExtra" : {
             "opencv" : "17",
-            "tessAll" : "0",
+            "tessAll" : "00 0",
             "tessCustom" : "",
             "tessOnly" : "7"
          },
@@ -163,13 +163,13 @@
       "7" : {
          "clock" : {
             "opencv" : "3:17",
-            "tessAll" : "477 7",
+            "tessAll" : "",
             "tessCustom" : "32:17",
             "tessOnly" : "3:17"
          },
          "clockExtra" : {
             "opencv" : "24",
-            "tessAll" : "",
+            "tessAll" : "4",
             "tessCustom" : "",
             "tessOnly" : "74"
          },
@@ -189,7 +189,7 @@
          },
          "clockExtra" : {
             "opencv" : "24",
-            "tessAll" : "",
+            "tessAll" : "4",
             "tessCustom" : "",
             "tessOnly" : "74"
          },
@@ -203,7 +203,7 @@
       "9" : {
          "clock" : {
             "opencv" : "1:45",
-            "tessAll" : "45 15",
+            "tessAll" : "45 5",
             "tessCustom" : "1",
             "tessOnly" : "1:45"
          },
@@ -225,13 +225,13 @@
       "1" : {
          "clock" : {
             "opencv" : "10:09 19",
-            "tessAll" : "9 09 09 99",
+            "tessAll" : "9 09 09",
             "tessCustom" : "10:09 19",
             "tessOnly" : "10:09 19"
          },
          "downDistance" : {
             "opencv" : "SUPERBOWLLVN",
-            "tessAll" : "",
+            "tessAll" : "0  8",
             "tessCustom" : "",
             "tessOnly" : "1"
          },
@@ -245,13 +245,13 @@
       "2" : {
          "clock" : {
             "opencv" : "8:13",
-            "tessAll" : "",
+            "tessAll" : "1 810",
             "tessCustom" : "8:13",
             "tessOnly" : "8:13"
          },
          "downDistance" : {
             "opencv" : "262",
-            "tessAll" : ")  ) ) :",
+            "tessAll" : ") ) 6 2",
             "tessCustom" : "2 62",
             "tessOnly" : ") 2 2"
          },
@@ -265,7 +265,7 @@
       "3" : {
          "clock" : {
             "opencv" : "5:00 36",
-            "tessAll" : "00 300",
+            "tessAll" : "540 510",
             "tessCustom" : "5:00 36",
             "tessOnly" : "9:00 36"
          },
@@ -285,13 +285,13 @@
       "4" : {
          "clock" : {
             "opencv" : "13:31 36",
-            "tessAll" : "31 3 231 8",
+            "tessAll" : "31 3 231",
             "tessCustom" : "13:31 38",
             "tessOnly" : "13:31 36"
          },
          "downDistance" : {
             "opencv" : "388",
-            "tessAll" : ")  ) 6 )",
+            "tessAll" : ")  )  )",
             "tessCustom" : "3 8",
             "tessOnly" : ") 8"
          },
@@ -311,7 +311,7 @@
          },
          "downDistance" : {
             "opencv" : "SUPERBOWLLIM",
-            "tessAll" : "",
+            "tessAll" : "0  9",
             "tessCustom" : "",
             "tessOnly" : ""
          },
@@ -331,13 +331,13 @@
          },
          "downDistance" : {
             "opencv" : "rw Down",
-            "tessAll" : ") )  )",
+            "tessAll" : ")",
             "tessCustom" : "474",
             "tessOnly" : "47"
          },
          "score" : {
             "opencv" : "14 14",
-            "tessAll" : "14 0",
+            "tessAll" : "14 14",
             "tessCustom" : "14 4",
             "tessOnly" : "14 14"
          }
@@ -357,7 +357,7 @@
          },
          "score" : {
             "opencv" : "14 20",
-            "tessAll" : "0 2020",
+            "tessAll" : "1 0 2020",
             "tessCustom" : "14 20",
             "tessOnly" : "14 20"
          }
@@ -367,7 +367,7 @@
       "1" : {
          "clock" : {
             "opencv" : "1:21 35",
-            "tessAll" : "2 5",
+            "tessAll" : "2",
             "tessCustom" : "35",
             "tessOnly" : "121 435"
          },
@@ -387,13 +387,13 @@
       "2" : {
          "clock" : {
             "opencv" : "15:00 17",
-            "tessAll" : "0) 1500 1500 0 47",
+            "tessAll" : "0) 1500 1500 0 17",
             "tessCustom" : "95:00 77",
             "tessOnly" : "1500 17"
          },
          "downDistance" : {
             "opencv" : "2ndeB",
-            "tessAll" : "",
+            "tessAll" : "8",
             "tessCustom" : "",
             "tessOnly" : "68"
          },
@@ -447,7 +447,7 @@
       "5" : {
          "clock" : {
             "opencv" : "7:29 37",
-            "tessAll" : "1 7 78 79",
+            "tessAll" : "1 7 7 79",
             "tessCustom" : "7 37",
             "tessOnly" : "729 37"
          },
@@ -459,7 +459,7 @@
          },
          "score" : {
             "opencv" : "0 20",
-            "tessAll" : "00 20",
+            "tessAll" : "00 0",
             "tessCustom" : "0 20",
             "tessOnly" : "0 2)"
          }
@@ -487,7 +487,7 @@
       "7" : {
          "clock" : {
             "opencv" : "15:00 15",
-            "tessAll" : "0) 1500 1500 5 15 45",
+            "tessAll" : "1500 1500 5 15 45",
             "tessCustom" : "695:00 7 5",
             "tessOnly" : "1500 15"
          },
@@ -499,7 +499,7 @@
          },
          "score" : {
             "opencv" : "7 28",
-            "tessAll" : "2",
+            "tessAll" : "0 2",
             "tessCustom" : "0 28",
             "tessOnly" : "7 28"
          }
@@ -509,7 +509,7 @@
       "1" : {
          "clock" : {
             "opencv" : "02:25",
-            "tessAll" : "02:25 025 02:25",
+            "tessAll" : "2:25 0225 02:25",
             "tessCustom" : "02:25",
             "tessOnly" : "02:25"
          },
@@ -523,7 +523,7 @@
       "10" : {
          "clock" : {
             "opencv" : "29:58",
-            "tessAll" : "2558 2458 20:56",
+            "tessAll" : "2658 2458 20:58",
             "tessCustom" : "29:58",
             "tessOnly" : "29:58"
          },
@@ -543,7 +543,7 @@
          },
          "score" : {
             "opencv" : "0 2",
-            "tessAll" : "000 02",
+            "tessAll" : "000 2",
             "tessCustom" : "0 0",
             "tessOnly" : "0 2"
          }
@@ -551,7 +551,7 @@
       "12" : {
          "clock" : {
             "opencv" : "39:40",
-            "tessAll" : "34) 4:40 340",
+            "tessAll" : "34) 34:40 3040",
             "tessCustom" : "39:40",
             "tessOnly" : "39:40"
          },
@@ -565,7 +565,7 @@
       "13" : {
          "clock" : {
             "opencv" : "44:32",
-            "tessAll" : "44:38 44132 44:32",
+            "tessAll" : "4432 44:92 4492",
             "tessCustom" : "44:32",
             "tessOnly" : "44:32"
          },
@@ -593,7 +593,7 @@
       "15" : {
          "clock" : {
             "opencv" : "68:46",
-            "tessAll" : "6 646 68:46",
+            "tessAll" : "6 6646 68:46",
             "tessCustom" : "68:46",
             "tessOnly" : "68:46"
          },
@@ -607,7 +607,7 @@
       "16" : {
          "clock" : {
             "opencv" : "68:36",
-            "tessAll" : "68:36 66:36 08:36",
+            "tessAll" : "66:36 66:36 08:36",
             "tessCustom" : "68:36",
             "tessOnly" : "68:36"
          },
@@ -621,13 +621,13 @@
       "17" : {
          "clock" : {
             "opencv" : "74:47",
-            "tessAll" : "7447 74:47 74:4)",
+            "tessAll" : "744) 74:47 74:4)",
             "tessCustom" : "74:47",
             "tessOnly" : "74:47"
          },
          "score" : {
             "opencv" : "2 1",
-            "tessAll" : "022 1",
+            "tessAll" : "222 1",
             "tessCustom" : "0 1",
             "tessOnly" : "2 1"
          }
@@ -635,7 +635,7 @@
       "18" : {
          "clock" : {
             "opencv" : "78:48",
-            "tessAll" : "7448 78:46",
+            "tessAll" : "7449 70:46",
             "tessCustom" : "78:48",
             "tessOnly" : "78:48"
          },
@@ -649,7 +649,7 @@
       "19" : {
          "clock" : {
             "opencv" : "84:04",
-            "tessAll" : "(4 04 :",
+            "tessAll" : "04 04 :",
             "tessCustom" : "84:04",
             "tessOnly" : "64:04"
          },
@@ -697,7 +697,7 @@
          },
          "score" : {
             "opencv" : "1 0",
-            "tessAll" : "141 000",
+            "tessAll" : "111 000",
             "tessCustom" : "1 0",
             "tessOnly" : "1 0"
          }
@@ -705,13 +705,13 @@
       "4" : {
          "clock" : {
             "opencv" : "09:10",
-            "tessAll" : "0 08100010",
+            "tessAll" : "4008100010",
             "tessCustom" : "09:10",
             "tessOnly" : "09:10"
          },
          "score" : {
             "opencv" : "0 1",
-            "tessAll" : "00 1",
+            "tessAll" : "000 1",
             "tessCustom" : "0 1",
             "tessOnly" : "0 1"
          }
@@ -733,7 +733,7 @@
       "6" : {
          "clock" : {
             "opencv" : "15:19",
-            "tessAll" : "15:59 15019 1509",
+            "tessAll" : "15:59 15019 15:09",
             "tessCustom" : "15:19",
             "tessOnly" : "15:19"
          },
@@ -761,7 +761,7 @@
       "8" : {
          "clock" : {
             "opencv" : "24:50",
-            "tessAll" : "24550 24:50 24:50",
+            "tessAll" : "24:50 24:50 2450",
             "tessCustom" : "24:50",
             "tessOnly" : "24:50"
          },
@@ -775,7 +775,7 @@
       "9" : {
          "clock" : {
             "opencv" : "29:32",
-            "tessAll" : "5:38 2",
+            "tessAll" : "5:3 2 2",
             "tessCustom" : "29:32",
             "tessOnly" : "29:32"
          },
@@ -797,7 +797,7 @@
          },
          "score" : {
             "opencv" : "0 1",
-            "tessAll" : "(1  1)",
+            "tessAll" : "(1 1)",
             "tessCustom" : "0 1",
             "tessOnly" : "0 1"
          }
@@ -805,13 +805,13 @@
       "2" : {
          "clock" : {
             "opencv" : "12:46",
-            "tessAll" : "2",
+            "tessAll" : "(2",
             "tessCustom" : "",
             "tessOnly" : "12:46"
          },
          "score" : {
             "opencv" : "1 0",
-            "tessAll" : "0",
+            "tessAll" : "101 01",
             "tessCustom" : "1 0",
             "tessOnly" : "1 9"
          }
@@ -847,13 +847,13 @@
       "5" : {
          "clock" : {
             "opencv" : "64:54",
-            "tessAll" : "54",
+            "tessAll" : "5",
             "tessCustom" : "(66:54",
             "tessOnly" : "64:54"
          },
          "score" : {
             "opencv" : "1 0",
-            "tessAll" : "1)  ( 4",
+            "tessAll" : "0",
             "tessCustom" : "1 0",
             "tessOnly" : "1 0"
          }
@@ -861,7 +861,7 @@
       "6" : {
          "clock" : {
             "opencv" : "92:45",
-            "tessAll" : "",
+            "tessAll" : "5 05 25",
             "tessCustom" : "69245",
             "tessOnly" : "92:45"
          },
@@ -889,13 +889,13 @@
       "8" : {
          "clock" : {
             "opencv" : "91:23",
-            "tessAll" : "903 9124 9123",
+            "tessAll" : "93 9124 9123",
             "tessCustom" : "91:23",
             "tessOnly" : "91:23"
          },
          "score" : {
             "opencv" : "0 1",
-            "tessAll" : "10 40",
+            "tessAll" : "(11 4",
             "tessCustom" : "0 1",
             "tessOnly" : "0 1"
          }
@@ -905,7 +905,7 @@
       "1" : {
          "clock" : {
             "opencv" : "18:45",
-            "tessAll" : "1 1",
+            "tessAll" : "1",
             "tessCustom" : "16:05",
             "tessOnly" : "18:45"
          },
@@ -925,13 +925,13 @@
       "10" : {
          "clock" : {
             "opencv" : "90:00",
-            "tessAll" : "400 9000 90:00",
+            "tessAll" : "400 9000 90 00",
             "tessCustom" : "90:00",
             "tessOnly" : "90:00"
          },
          "score" : {
             "opencv" : "0 5",
-            "tessAll" : "000 4",
+            "tessAll" : "000 0",
             "tessCustom" : "0 0",
             "tessOnly" : "0 5"
          },
@@ -945,7 +945,7 @@
       "11" : {
          "clock" : {
             "opencv" : "04:11",
-            "tessAll" : "411 41) 041",
+            "tessAll" : "411 041 041",
             "tessCustom" : "04:11",
             "tessOnly" : "04:11"
          },
@@ -965,7 +965,7 @@
       "2" : {
          "clock" : {
             "opencv" : "20:36",
-            "tessAll" : "136 036 30",
+            "tessAll" : "036 2035 2038",
             "tessCustom" : "20:36",
             "tessOnly" : "20:36"
          },
@@ -1005,7 +1005,7 @@
       "4" : {
          "clock" : {
             "opencv" : "30:09",
-            "tessAll" : "3109 3109 3009",
+            "tessAll" : "3109 3109 3109",
             "tessCustom" : "30:03",
             "tessOnly" : "30:09"
          },
@@ -1017,7 +1017,7 @@
          },
          "scoreExtra" : {
             "opencv" : "(3 2)",
-            "tessAll" : "",
+            "tessAll" : "(32) (4 2) (2",
             "tessCustom" : "(3 2)",
             "tessOnly" : "(3 2)"
          }
@@ -1025,7 +1025,7 @@
       "5" : {
          "clock" : {
             "opencv" : "63:31",
-            "tessAll" : ") 23) 093)",
+            "tessAll" : "331 31 34)",
             "tessCustom" : "639:31",
             "tessOnly" : "63:31"
          },
@@ -1045,7 +1045,7 @@
       "6" : {
          "clock" : {
             "opencv" : "77:35",
-            "tessAll" : "",
+            "tessAll" : "3",
             "tessCustom" : "77:35",
             "tessOnly" : "77:35"
          },
@@ -1071,7 +1071,7 @@
          },
          "score" : {
             "opencv" : "0 1",
-            "tessAll" : "0 )1",
+            "tessAll" : "0 11",
             "tessCustom" : "0 4",
             "tessOnly" : "0 1"
          },
@@ -1085,7 +1085,7 @@
       "8" : {
          "clock" : {
             "opencv" : "78:09",
-            "tessAll" : "09 ) 1809",
+            "tessAll" : "709 180",
             "tessCustom" : "76:05",
             "tessOnly" : "78:09"
          },
@@ -1127,13 +1127,13 @@
       "1" : {
          "clock" : {
             "opencv" : "00:51",
-            "tessAll" : "051 05 00:54",
+            "tessAll" : "",
             "tessCustom" : "00:51",
             "tessOnly" : "00:51"
          },
          "score" : {
             "opencv" : "0 0",
-            "tessAll" : "100 00 0",
+            "tessAll" : "100 000",
             "tessCustom" : "00",
             "tessOnly" : "0"
          }
@@ -1141,7 +1141,7 @@
       "2" : {
          "clock" : {
             "opencv" : "06:35",
-            "tessAll" : "16:85 4:35 06:35",
+            "tessAll" : "1685 4:35 06:35",
             "tessCustom" : "06:35",
             "tessOnly" : "06:35"
          },
@@ -1169,13 +1169,13 @@
       "4" : {
          "clock" : {
             "opencv" : "19:18",
-            "tessAll" : "1048 1048 1018",
+            "tessAll" : "1048 1048 1048",
             "tessCustom" : "19:18",
             "tessOnly" : "19:18"
          },
          "score" : {
             "opencv" : "3 0",
-            "tessAll" : "409 09 )",
+            "tessAll" : "409 09",
             "tessCustom" : "2 9",
             "tessOnly" : "3 0"
          }
@@ -1183,7 +1183,7 @@
       "5" : {
          "clock" : {
             "opencv" : "69:42",
-            "tessAll" : "2  2",
+            "tessAll" : "2 92 2",
             "tessCustom" : "(69:62",
             "tessOnly" : "69:42"
          },
@@ -1211,7 +1211,7 @@
       "7" : {
          "clock" : {
             "opencv" : "79:20",
-            "tessAll" : "20 820 182)",
+            "tessAll" : "20 20 182",
             "tessCustom" : "79:20",
             "tessOnly" : "79:20"
          },
@@ -1225,13 +1225,13 @@
       "8" : {
          "clock" : {
             "opencv" : "89:12",
-            "tessAll" : "2 12 92",
+            "tessAll" : "2 2 92",
             "tessCustom" : "9:12",
             "tessOnly" : "89:12"
          },
          "score" : {
             "opencv" : "1 2",
-            "tessAll" : "12",
+            "tessAll" : "12)",
             "tessCustom" : "41 2",
             "tessOnly" : "1 2"
          }
@@ -1239,7 +1239,7 @@
       "9" : {
          "clock" : {
             "opencv" : "86:57",
-            "tessAll" : "457 8457 0:87",
+            "tessAll" : "457 8457 0:57",
             "tessCustom" : "6:57",
             "tessOnly" : "86:57"
          },

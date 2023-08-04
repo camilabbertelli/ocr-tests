@@ -85,7 +85,6 @@ int main(int argc, char** argv)
         string elementsKey = "elements";
 
         vector<string> keys = league->populateKeys(elementsKey, json);
-        int k = 0;
 
         //reading the image
 
@@ -140,86 +139,6 @@ int main(int argc, char** argv)
                     int y = json[elementsKey][currentKey]["y"].asInt();
                     int w = json[elementsKey][currentKey]["w"].asInt();
                     int h = json[elementsKey][currentKey]["h"].asInt();
-                    {
-                        Mat mask = Mat(img.rows, img.cols, img.type(), 0.0);
-                        //rectangle(mask, Rect(x, y, w, h), Scalar(255, 255, 255), -1);
-
-
-                        Mat result;
-                        //bitwise_and(img, mask, result);
-                        result = mask.clone();
-
-                        Mat cropped = img(Rect(x, y, w, h));
-                        // enlarge images for better recognition
-                        resize(cropped, cropped, Size(), 3, 3, INTER_NEAREST);
-                        cropped.copyTo(result(Rect(0, 0, cropped.cols, cropped.rows)));
-
-                        // Load model weights
-                        TextDetectionModel_DB model("../models/DB_IC15_resnet50.onnx");
-                        // Post-processing parameters
-                        float binThresh = 0.3;
-                        float polyThresh = 0.8;
-                        uint maxCandidates = 4;
-                        double unclipRatio = 2.5;
-                        model.setBinaryThreshold(binThresh)
-                            .setPolygonThreshold(polyThresh)
-                            .setMaxCandidates(maxCandidates)
-                            .setUnclipRatio(unclipRatio);
-                        // Normalization parameters
-                        double scale = 1.0 / 255.0;
-                        Scalar mean = Scalar(122.67891434, 116.66876762, 104.00698793);
-
-                        // The input shape
-                        Size inputSize = Size(736, 736);
-                        model.setInputParams(scale, inputSize, mean);
-
-                        std::vector<std::vector<Point>> detResults;
-                        model.detect(result, detResults);
-                        Mat frame2 = result.clone();
-                        // Visualization
-                        polylines(result, detResults, true, Scalar(0, 255, 0), 2);
-
-                        if (detResults.size() > 0)
-                        {
-                            // Text Recognition
-                            Mat recInput;
-                            
-                            recInput = result;
-                            
-                            std::vector<std::vector<Point>> contours;
-                            for (uint i = 0; i < detResults.size(); i++)
-                            {
-                                const auto &quadrangle = detResults[i];
-                                CV_CheckEQ(quadrangle.size(), (size_t)4, "");
-
-                                contours.emplace_back(quadrangle);
-
-                                std::vector<Point2f> quadrangle_2f;
-                                for (int j = 0; j < 4; j++)
-                                    quadrangle_2f.emplace_back(quadrangle[j]);
-
-                                // Transform and Crop
-                                Mat cropped1;
-                                fourPointsTransform(recInput, &quadrangle_2f[0], cropped1);
-
-                                std::string recognitionResult = opencvRecognition(cropped1,
-                                                                                  "../models/crnn_cs.onnx",
-                                                                                  "../models/alphabet_94.txt");
-                                std::cout << i << ": (before)'" << recognitionResult << "'" << std::endl;
-                                league->postprocess(recognitionResult);
-                                std::cout << i << ": (after)'" << recognitionResult << "'" << std::endl;
-
-                                putText(frame2, recognitionResult, quadrangle[3], FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 0, 255), 2);
-                            }
-                            polylines(frame2, contours, true, Scalar(0, 255, 0), 2);
-                        }
-                        else
-                        {
-                            std::cout << "No Text Detected." << std::endl;
-                        }
-                        imshow("welllll", frame2);
-                        waitKey();
-                    }*/
 
                     Mat cropped = img(Rect(x, y, w, h));
                     string temp;
