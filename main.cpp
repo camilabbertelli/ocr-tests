@@ -50,7 +50,6 @@ int main(int argc, char** argv)
     if (system("rm -r croppedImages") != -1)
         mkdir("croppedImages", 0777);
 
-    // TODO: corrigir isso amanha
     assert(system("rm obtained.json") != -1);
 
     // initializing tesseract variables
@@ -141,8 +140,6 @@ int main(int argc, char** argv)
                     int y = json[elementsKey][currentKey]["y"].asInt();
                     int w = json[elementsKey][currentKey]["w"].asInt();
                     int h = json[elementsKey][currentKey]["h"].asInt();
-
-                    /*if (currentKey == "downDistance")
                     {
                         Mat mask = Mat(img.rows, img.cols, img.type(), 0.0);
                         //rectangle(mask, Rect(x, y, w, h), Scalar(255, 255, 255), -1);
@@ -291,7 +288,7 @@ int main(int argc, char** argv)
                 //imshow(commonKey, resultFinal);
                 imwrite("croppedImages/" + leagueName + "/" + commonKey + "_" + imgName, resultFinal);
             }
-            
+
             cv::destroyAllWindows();
         }
     }
