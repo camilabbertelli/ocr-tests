@@ -90,7 +90,7 @@ int main(int argc, char** argv)
 
         vector<string> pathImgs;
         glob("leagues/" + leagueName + "/*.jpg", pathImgs, false);
-
+        
         for (string pathImg : pathImgs) {
 
             int pos = pathImg.find_last_of('/');

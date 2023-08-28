@@ -59,7 +59,7 @@ int main(int argc, char **argv)
     {
         string league = argv[1];
         vector<string> pathImgs;
-        glob(league + "/*.jpg", pathImgs, false);
+        glob("leagues/" + league + "/*.jpg", pathImgs, false);
 
         image = readImage(pathImgs.front());
         windowName = league;
